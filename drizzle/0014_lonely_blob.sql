@@ -1,0 +1,1 @@
+CREATE INDEX `taxon_visits_visitor_day_idx` ON `taxon_visits` (`visitor_id`,`day`);

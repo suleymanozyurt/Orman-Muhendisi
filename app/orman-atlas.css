@@ -1,0 +1,205 @@
+/*
+ * Orman Atlas — the current design layer. Loaded last.
+ * Ground is pure white in the light theme; structure comes from spacing, type and hairlines
+ * instead of boxes inside boxes. Everything hangs off #orman-atlas so earlier layers cannot
+ * override it, and colours come from the shared tokens so the dark theme keeps working.
+ */
+html:not([data-theme=dark]) #orman-atlas{
+  --paper:#fff;--white:#fff;--ink:#12241b;--muted:#55645a;--line:#e4e9e2;--mint:#eef4ee;
+  --forest:#17402e;--forest-2:#1f5a3c;--green:#1f6a45;--accent:#17402e;--accent-ink:#fff;
+  --atlas-header:#fff;--atlas-hero:#fff;--atlas-detail:#f3f6f1;
+  --oa-wash:#f4f7f3;--oa-wash-strong:#e9f0e8;--oa-shadow:0 10px 30px #12241b14;
+}
+html[data-theme=dark] #orman-atlas{--oa-wash:#16241c;--oa-wash-strong:#1f3327;--oa-shadow:0 10px 30px #0008}
+#orman-atlas{
+  --oa-serif:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;
+  --oa-radius:14px;--oa-radius-media:20px;--oa-gap:16px;
+  background:var(--paper);
+}
+
+/* ── Home ─────────────────────────────────────────────────────────────── */
+#orman-atlas .field-home{display:grid;gap:clamp(20px,3vw,32px);margin:0 0 clamp(24px,4vw,40px);padding:0;border:0;background:none;box-shadow:none}
+#orman-atlas .atlas-hero{display:grid;gap:clamp(20px,3vw,40px);align-items:stretch}
+#orman-atlas .atlas-hero-copy{display:grid;align-content:center;gap:0;min-width:0;padding-top:clamp(4px,1.5vw,16px)}
+#orman-atlas .atlas-eyebrow{margin:0 0 10px;color:var(--green);font-size:.75rem;font-weight:650;letter-spacing:.09em;text-transform:uppercase}
+#orman-atlas .field-home h1{margin:0;color:var(--ink);font:700 clamp(2.5rem,7.2vw,4.25rem)/1 var(--ui-font,system-ui);letter-spacing:-.045em;text-wrap:balance}
+#orman-atlas .atlas-lead{max-width:34ch;margin:12px 0 0;color:var(--muted);font-size:1.0625rem;line-height:1.5;text-wrap:pretty}
+#orman-atlas .field-search{margin:20px 0 0;padding:0;border:0;background:none}
+#orman-atlas .atlas-examples{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:12px 0 0;color:var(--muted);font-size:.875rem}
+#orman-atlas .atlas-examples>a{display:inline-flex;align-items:center;min-height:44px;margin-block:-6px;padding:0 4px;color:var(--forest);font-weight:600;text-decoration:underline;text-decoration-color:color-mix(in srgb,var(--forest) 35%,transparent);text-underline-offset:4px}
+#orman-atlas .field-tasks{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin:24px 0 0}
+#orman-atlas .field-tasks :is(a,button){display:grid;justify-items:center;align-content:start;gap:8px;min-width:0;min-height:88px;padding:12px 4px 10px;border:0;border-radius:var(--oa-radius);background:var(--oa-wash);color:var(--ink);text-align:center;text-decoration:none;transition:background-color 120ms ease,transform 120ms ease}
+#orman-atlas .field-tasks :is(a,button):active{transform:scale(.97)}
+#orman-atlas .field-tasks .field-task-icon{display:grid;place-items:center;width:40px;height:40px;border-radius:50%;background:var(--white);color:var(--forest);box-shadow:0 0 0 1px var(--line)}
+#orman-atlas .field-tasks .field-task-icon svg{width:20px;height:20px}
+#orman-atlas .field-tasks strong{display:block;font-size:clamp(.6875rem,3.3vw,.8125rem);font-weight:600;line-height:1.25;overflow-wrap:normal;word-break:normal;hyphens:auto}
+#orman-atlas .field-tasks small{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
+#orman-atlas .field-tasks .field-task-add{background:var(--forest);color:var(--button-ink,#fff);border:0}
+#orman-atlas .field-tasks .field-task-add .field-task-icon{background:color-mix(in srgb,#fff 16%,transparent);color:inherit;box-shadow:none}
+#orman-atlas .atlas-feature{position:relative;isolation:isolate;display:flex;flex-direction:column;justify-content:flex-end;min-height:clamp(220px,58vw,300px);padding:18px;border-radius:var(--oa-radius-media);overflow:hidden;background:var(--oa-wash-strong);color:#fff;text-decoration:none}
+#orman-atlas .atlas-feature>.responsive-photo,#orman-atlas .atlas-feature>img{position:absolute;inset:0;z-index:-2;display:block;width:100%;height:100%}
+#orman-atlas .atlas-feature img{display:block;width:100%;height:100%;object-fit:cover;object-position:50% 38%;transition:transform 500ms cubic-bezier(.2,.7,.2,1)}
+#orman-atlas .atlas-feature::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,transparent 35%,#08160fb8 78%,#08160ff0 100%)}
+#orman-atlas .atlas-feature-copy{display:grid;gap:2px;min-width:0}
+#orman-atlas .atlas-feature-copy>small{color:#dcefc8;font-size:.6875rem;font-weight:650;letter-spacing:.09em;text-transform:uppercase}
+#orman-atlas .atlas-feature-copy>strong{font:500 clamp(1.625rem,5vw,2.25rem)/1.1 var(--oa-serif);letter-spacing:-.01em}
+#orman-atlas .atlas-feature-copy>i{font:italic 400 1rem/1.4 var(--oa-serif);color:#eef4ea}
+#orman-atlas .atlas-feature-credit{margin-top:8px;color:#d5dfd3;font-size:.6875rem;overflow-wrap:anywhere}
+#orman-atlas .atlas-more{display:grid;gap:0;border-block:1px solid var(--line)}
+#orman-atlas .atlas-more>*+*{border-top:1px solid var(--line)}
+#orman-atlas .atlas-more>details{min-width:0;border-radius:0;border-inline:0;border-bottom:0;background:none}
+#orman-atlas .atlas-more>details:first-child{border-top:0}
+#orman-atlas .atlas-more :is(summary,.atlas-more-link){display:grid;grid-template-columns:22px minmax(0,1fr) 16px;align-items:center;gap:14px;min-height:56px;padding:8px 2px;color:var(--ink);font-size:1rem;font-weight:550;text-decoration:none;cursor:pointer;list-style:none}
+#orman-atlas .atlas-more summary::-webkit-details-marker{display:none}
+#orman-atlas .atlas-more :is(summary,.atlas-more-link)>svg{width:20px;height:20px;color:var(--green)}
+#orman-atlas .atlas-more :is(.atlas-expand,.atlas-chevron){justify-self:end;width:8px;height:8px;border:solid var(--muted);border-width:0 1.6px 1.6px 0;transform:rotate(-45deg);transition:transform 140ms ease}
+#orman-atlas .atlas-more details>summary>.atlas-expand{transform:translateY(-2px) rotate(45deg)}
+#orman-atlas .atlas-more details[open]>summary>.atlas-expand{transform:translateY(2px) rotate(225deg)}
+#orman-atlas .atlas-research-links{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:4px;margin:0 0 12px;padding:0}
+#orman-atlas .atlas-research-links a{display:flex;align-items:center;gap:10px;min-height:44px;padding:6px 10px;border-radius:10px;color:var(--ink);font-size:.9375rem;text-decoration:none}
+#orman-atlas .atlas-research-links a svg{width:18px;height:18px;flex:none;color:var(--muted)}
+#orman-atlas .atlas-more .home-question{display:flex;align-items:center;gap:6px;margin:0 0 14px;padding:4px 4px 4px 14px;border:0;border-radius:var(--oa-radius);background:var(--oa-wash)}
+#orman-atlas .atlas-more .home-question input{flex:1;min-width:0;width:100%;min-height:44px;padding:0;border:0;outline:0;background:transparent;color:var(--ink);font-size:16px;box-shadow:none}
+#orman-atlas .atlas-more .home-question button{flex:none;min-height:44px;padding:8px 16px;border:0;border-radius:11px;background:var(--forest);color:var(--button-ink,#fff);font-size:.875rem;font-weight:600}
+#orman-atlas .atlas-more .home-question button:disabled{opacity:.5}
+#orman-atlas .atlas-more .home-question:focus-within{outline:2px solid var(--green);outline-offset:2px}
+@media (hover:hover){
+  #orman-atlas .field-tasks :is(a,button):hover{background:var(--oa-wash-strong)}
+  #orman-atlas .field-tasks .field-task-add:hover{background:var(--forest-2)}
+  #orman-atlas .atlas-feature:hover img{transform:scale(1.03)}
+  #orman-atlas .atlas-research-links a:hover{background:var(--oa-wash)}
+  #orman-atlas .atlas-examples>a:hover{text-decoration-color:currentColor}
+}
+@media (min-width:860px){
+  #orman-atlas .atlas-hero.has-feature{grid-template-columns:minmax(0,1.08fr) minmax(300px,.92fr)}
+  #orman-atlas .atlas-feature{min-height:420px;padding:26px}
+  #orman-atlas .field-tasks{max-width:520px}
+  #orman-atlas .atlas-more{grid-template-columns:repeat(3,minmax(0,1fr));border-block:0;gap:12px}
+  #orman-atlas .atlas-more>:is(details,a),#orman-atlas .atlas-more>details:first-child{border:1px solid var(--line);border-radius:var(--oa-radius);align-self:start}
+  #orman-atlas .atlas-more :is(summary,.atlas-more-link){padding-inline:16px}
+  #orman-atlas .atlas-more details>:not(summary){margin-inline:14px}
+}
+@media (prefers-reduced-motion:reduce){#orman-atlas .field-tasks :is(a,button),#orman-atlas .atlas-feature img,#orman-atlas .atlas-more :is(.atlas-expand,.atlas-chevron){transition:none}}
+
+/* ── Home search field ────────────────────────────────────────────────── */
+#orman-atlas .field-search .universal-search form{min-height:56px;padding:5px 5px 5px 16px;border:0;border-radius:var(--oa-radius);background:var(--oa-wash);box-shadow:inset 0 0 0 1px var(--line)}
+#orman-atlas .field-search .universal-search form:focus-within{box-shadow:inset 0 0 0 2px var(--green);outline:0}
+#orman-atlas .field-search .universal-search input{background:transparent;font-size:1.0625rem}
+#orman-atlas .field-search .search-submit{min-height:46px;padding-inline:18px;border-radius:11px;background:var(--forest);color:var(--button-ink,#fff);font-weight:600}
+
+/* ── Shell: header, side navigation, dock ─────────────────────────────── */
+#orman-atlas .global-header{background:color-mix(in srgb,var(--paper) 92%,transparent);border-bottom:1px solid var(--line);box-shadow:none;-webkit-backdrop-filter:saturate(1.4) blur(14px);backdrop-filter:saturate(1.4) blur(14px)}
+#orman-atlas .mobile-profile-trigger{border:0;background:var(--oa-wash)}
+#orman-atlas .sidebar{padding:10px 0 16px;border:0;border-radius:0;background:none;box-shadow:none}
+#orman-atlas .sidebar .navigation-caption{padding-inline:12px;color:var(--muted);letter-spacing:.08em}
+#orman-atlas .sidebar .nav-item>a{border-radius:12px;color:var(--ink);font-weight:500}
+#orman-atlas .sidebar .nav-item>a.active{background:var(--oa-wash-strong);color:var(--forest);font-weight:650;box-shadow:none}
+#orman-atlas .sidebar .field-navigation{border:0;border-top:1px solid var(--line);border-radius:0;background:none}
+#orman-atlas .sidebar .sidebar-section-trigger{border-radius:12px}
+@media (hover:hover){#orman-atlas .sidebar .nav-item>a:not(.active):hover,#orman-atlas .sidebar .sidebar-section-trigger:hover{background:var(--oa-wash)}}
+@media (prefers-reduced-transparency:reduce){#orman-atlas .global-header{background:var(--paper);-webkit-backdrop-filter:none;backdrop-filter:none}}
+
+/* ── Page furniture shared by every view ──────────────────────────────── */
+#orman-atlas .page-heading{min-height:0;margin:0 0 clamp(12px,2vw,20px);padding:0;border:0;border-radius:0;background:none;box-shadow:none}
+#orman-atlas .page-heading h1{font-size:clamp(1.5rem,4vw,2.25rem);font-weight:700;letter-spacing:-.03em;line-height:1.1}
+#orman-atlas .page-heading .heading-actions button{border:0;background:var(--oa-wash);border-radius:50%}
+#orman-atlas .content-panel{padding:0;border:0;border-radius:0;background:none;box-shadow:none}
+#orman-atlas .eyebrow{color:var(--green);font-size:.75rem;font-weight:650;letter-spacing:.09em;text-transform:uppercase}
+#orman-atlas .page-tabs{display:flex;gap:4px;margin:0;padding:0;border:0;border-bottom:1px solid var(--line);border-radius:0;background:none;overflow-x:auto;scrollbar-width:none}
+#orman-atlas .page-tabs::-webkit-scrollbar{display:none}
+#orman-atlas .page-tabs>button{position:relative;flex:none;min-height:48px;padding:0 12px;border:0;border-radius:0;background:none;color:var(--muted);font-size:.9375rem;font-weight:500;white-space:nowrap}
+#orman-atlas .page-tabs>button:is(.active,[aria-selected=true]){background:none;color:var(--ink);font-weight:650}
+#orman-atlas .page-tabs>button:is(.active,[aria-selected=true])::after{content:"";position:absolute;inset:auto 12px -1px;height:2px;border-radius:2px;background:var(--forest)}
+
+/* ── Feed ─────────────────────────────────────────────────────────────── */
+#orman-atlas .feed-tab-row{background:none;border:0;border-bottom:1px solid var(--line)}
+#orman-atlas :is(.social-post,.observation){padding:0 0 20px;border:0;border-bottom:1px solid var(--line);border-radius:0;background:none;box-shadow:none}
+#orman-atlas :is(.social-post,.observation) .photo-album{border-radius:var(--oa-radius-media);overflow:hidden;background:var(--oa-wash)}
+#orman-atlas :is(.social-post-head,.observation-head){padding-inline:0}
+#orman-atlas :is(.post-tools,.social-actions){padding-inline:0}
+#orman-atlas :is(.social-caption,.observation-text,.native-photo-credit){padding-inline:0}
+#orman-atlas .observation .avatar{border:0;background:var(--oa-wash)}
+#orman-atlas .post-species{width:100%;margin:8px 0 0;border:0;border-radius:var(--oa-radius);background:var(--oa-wash)}
+#orman-atlas .post-species i{font:italic 500 1.0625rem/1.3 var(--oa-serif)}
+
+/* ── Species profile ──────────────────────────────────────────────────── */
+#orman-atlas .detail-panel{overflow:visible}
+#orman-atlas .species-profile-hero{gap:clamp(16px,3vw,36px);border:0;background:none}
+#orman-atlas .species-cover-media{border-radius:var(--oa-radius-media);overflow:hidden;background:var(--oa-wash)}
+#orman-atlas .species-cover-media .photo-album{background:var(--oa-wash)}
+#orman-atlas .species-cover-content{display:grid;align-content:center;gap:0;padding:0}
+#orman-atlas .species-cover-content h2{margin:8px 0 0;font:500 clamp(1.875rem,6vw,2.75rem)/1.08 var(--oa-serif);letter-spacing:-.01em;color:var(--ink)}
+#orman-atlas .species-cover-content h2 i{font-style:italic}
+#orman-atlas .species-turkish-name{margin:6px 0 0;color:var(--ink);font-size:1.1875rem;font-weight:600}
+#orman-atlas .species-intro{max-width:60ch;margin:12px 0 0;color:var(--muted);font-size:1rem;line-height:1.55}
+#orman-atlas .species-primary-actions{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:20px 0 0;padding:0}
+#orman-atlas .species-primary-actions>button,#orman-atlas .species-primary-actions .context-actions-trigger{min-height:48px;padding:0 18px;border:0;border-radius:24px;background:var(--oa-wash);color:var(--ink);font-size:.9375rem;font-weight:600}
+#orman-atlas .species-primary-actions>button.solid-action{background:var(--forest);color:var(--button-ink,#fff)}
+#orman-atlas .photo-attribution{margin:10px 0 0;padding:0;border:0;background:none;color:var(--muted);font-size:.75rem}
+#orman-atlas .detail-tabs{margin-top:clamp(20px,3vw,32px)}
+#orman-atlas .detail-body{padding:0}
+#orman-atlas .profile-disclosure{border:0;border-bottom:1px solid var(--line);border-radius:0;background:none}
+#orman-atlas .profile-disclosure>summary{min-height:60px;padding:0 2px;font-size:1.0625rem;font-weight:600}
+#orman-atlas .botanical-citation{margin:0;padding:14px 0;border:0;color:var(--muted);font-size:.8125rem}
+#orman-atlas .species-lower{display:grid;gap:clamp(28px,4vw,48px);margin-top:clamp(28px,4vw,48px);padding:0;border:0}
+#orman-atlas .species-lower>section{padding:0;border:0}
+#orman-atlas .species-lower .section-title h2,#orman-atlas .species-lower .section-title h3{font-size:clamp(1.375rem,3.4vw,1.75rem);letter-spacing:-.025em}
+#orman-atlas .species-empty{padding:18px;border:0;border-radius:var(--oa-radius);background:var(--oa-wash);color:var(--muted)}
+#orman-atlas .related-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,260px),1fr));gap:0 24px;border-top:1px solid var(--line)}
+#orman-atlas .related-grid>button{min-height:0;padding:14px 2px;border:0;border-bottom:1px solid var(--line);border-radius:0;background:none;text-align:start}
+#orman-atlas .related-grid>button :is(i,em){font:italic 500 1.125rem/1.3 var(--oa-serif)}
+@media (hover:hover){#orman-atlas .related-grid>button:hover{background:var(--oa-wash)}}
+@media (max-width:700px){
+  #orman-atlas[data-view=detail] .page-heading>div:first-child{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
+  #orman-atlas[data-view=detail] .page-heading{position:absolute;inset-inline-end:16px;z-index:3;margin:10px 10px 0 0}
+  #orman-atlas[data-view=detail] .page-heading .heading-actions button{background:color-mix(in srgb,var(--paper) 88%,transparent);box-shadow:0 2px 10px #0003}
+  #orman-atlas .species-cover-content{padding-top:4px}
+}
+#orman-atlas .sidebar .nav-item>a.active{background:var(--oa-wash-strong)!important;color:var(--forest)!important}
+#orman-atlas .species-cover-content h2 i{font-family:var(--oa-serif)}
+
+/* ── Sign-in strip, profile, composer ─────────────────────────────────── */
+#orman-atlas .session-connect{border:0;border-radius:var(--oa-radius);background:var(--oa-wash)}
+#orman-atlas .session-connect>button{border:0;border-radius:12px;background:var(--forest);color:var(--button-ink,#fff);font-weight:600}
+#orman-atlas .profile-cover{border:0;border-radius:var(--oa-radius-media);background:var(--oa-wash);color:var(--ink)}
+#orman-atlas .profile-cover :is(h2,p,.eyebrow,.eyebrow.light){color:inherit}
+#orman-atlas .profile-cover .eyebrow.light{color:var(--green)}
+#orman-atlas .profile-cover p{color:var(--muted)}
+#orman-atlas .profile-cover>button{border:0;border-radius:24px;background:var(--white);color:var(--ink);font-weight:600;box-shadow:inset 0 0 0 1px var(--line)}
+#orman-atlas .profile-avatar{background:var(--white);color:var(--forest);box-shadow:inset 0 0 0 1px var(--line)}
+#orman-atlas .profile-stats>button{border:0;border-radius:var(--oa-radius);background:var(--oa-wash)}
+#orman-atlas .profile-network-panel{padding-inline:0;border:0;border-top:1px solid var(--line);border-radius:0;background:none}
+#orman-atlas .composer{background:none}
+
+/* ── Taxonomy ─────────────────────────────────────────────────────────── */
+#orman-atlas .taxonomy-explorer{padding:0;border:0;border-radius:0;background:none;box-shadow:none}
+#orman-atlas .tx-heading h1{font-size:clamp(1.75rem,5vw,2.5rem);letter-spacing:-.035em}
+#orman-atlas .tx-search form{border:0;border-radius:var(--oa-radius);background:var(--oa-wash);box-shadow:inset 0 0 0 1px var(--line)}
+#orman-atlas .tx-search form:focus-within{box-shadow:inset 0 0 0 2px var(--green)}
+#orman-atlas .taxonomy-kingdom-bar{border:0;border-block:1px solid var(--line);border-radius:0;background:none}
+
+/* ── Map ──────────────────────────────────────────────────────────────── */
+#orman-atlas .atlas-canvas{border-radius:var(--oa-radius-media);overflow:hidden}
+#orman-atlas :is(.atlas-filter-button,.atlas-tools>button,.atlas-search-area,.atlas-results-trigger){border:0;box-shadow:var(--oa-shadow)}
+@media (max-width:700px){
+  #orman-atlas[data-view=map] .persistent-map{width:100vw;max-width:none;margin-inline:calc(50% - 50vw)}
+  #orman-atlas[data-view=map] .atlas-canvas{border-radius:0}
+}
+#orman-atlas .mobile-nav .dock-create>small{color:var(--ink)}
+
+/* ── Secondary views: lists read as rows, panels as quiet washes ───────── */
+#orman-atlas article:is(.hub-card,.gbif-record),#orman-atlas div.hub-card,#orman-atlas .catalog-source-card{padding-inline:0;border:0;border-bottom:1px solid var(--line);border-radius:0;background:none;box-shadow:none}
+#orman-atlas :is(form,aside).hub-card,#orman-atlas :is(.assistant-welcome,.account-card,.profile-settings,.pwa-setting,.theme-settings,.care-next-panel,.vernacular-names,.bottom-cta,.fungi-hero,.gbif-export,.empty-state,.external-source-tools,.care-error,.assistant-connection-note){border:0;border-radius:var(--oa-radius-media);background:var(--oa-wash);box-shadow:none}
+#orman-atlas :is(.care-error,.assistant-connection-note,.external-source-tools,.theme-settings,.gbif-export){border-radius:var(--oa-radius)}
+#orman-atlas .assistant-composer{border:0;border-radius:var(--oa-radius-media);background:var(--oa-wash);box-shadow:inset 0 0 0 1px var(--line)}
+#orman-atlas .assistant-composer:focus-within{box-shadow:inset 0 0 0 2px var(--green)}
+#orman-atlas .library-search{border:0;border-radius:var(--oa-radius);background:var(--oa-wash);box-shadow:inset 0 0 0 1px var(--line)}
+#orman-atlas .care-assistant-entry{border:0;background:var(--oa-wash)}
+#orman-atlas .health-workspace-tabs{border:0;border-bottom:1px solid var(--line);border-radius:0;background:none}
+#orman-atlas :is(.hub-card,.gbif-record) :is(h2,h3) i,#orman-atlas .catalog-latin{font-family:var(--oa-serif)}
+
+/* ── Sheets and dialogs ───────────────────────────────────────────────── */
+#orman-atlas dialog:is(.action-sheet,.menu-dialog,.search-dialog,.people-dialog):not(.lens-menu){border:0;box-shadow:var(--oa-shadow),0 0 0 1px var(--line)}
+#orman-atlas .universal-search input:focus-visible{outline:0}
+#orman-atlas .universal-search form:focus-within{outline:2px solid var(--green);outline-offset:2px}
+#orman-atlas .field-search .universal-search form:focus-within{outline:0}

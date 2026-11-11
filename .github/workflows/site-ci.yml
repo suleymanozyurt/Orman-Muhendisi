@@ -1,0 +1,36 @@
+name: Web sitesi kontrolleri
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: site-ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - name: Kilitli bağımlılıkları kur
+        run: npm ci
+      - name: TypeScript
+        run: npx tsc --noEmit
+      - name: Derle ve çıktı bütünlüğünü denetle
+        run: npm run build
+      - name: Uygulama ve veri bütünlüğü testleri
+        run: node --test tests/*.test.mjs
+      - name: Mevcut asistan testleri
+        run: node --test assistant-automation/monitor.test.mjs

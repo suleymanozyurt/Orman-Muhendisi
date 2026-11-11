@@ -1,0 +1,12 @@
+{
+  "name": "Orman Mühendisi",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
+  "postCreateCommand": "npm ci",
+  "forwardPorts": [3000],
+  "portsAttributes": {
+    "3000": { "label": "Orman Mühendisi önizleme", "onAutoForward": "notify" }
+  },
+  "customizations": {
+    "vscode": { "extensions": ["dbaeumer.vscode-eslint"] }
+  }
+}

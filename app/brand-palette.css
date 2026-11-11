@@ -1,0 +1,214 @@
+/* BizimBitkiler reference greens, quiet reading surfaces and a white page canvas. */
+:root{
+  --brand-forest:#2e7d32;
+  --brand-forest-dark:#1b5e20;
+  --brand-paper:#f5f7f5;
+  --brand-white:#fff;
+  --page-background:var(--brand-white);
+  --accent:var(--brand-forest);
+  --accent-hover:var(--brand-forest-dark);
+  --accent-ink:var(--brand-white);
+  --forest:var(--brand-forest-dark);
+  --forest-2:var(--brand-forest-dark);
+  --green:var(--brand-forest);
+  --lime:var(--brand-forest);
+  --mint:#edf4ee;
+  --paper:var(--brand-paper);
+  --white:var(--brand-white);
+  --ink:#18251e;
+  --muted:#64716a;
+  --line:#e2e8e3;
+  --button-ink:var(--brand-white);
+  --danger:var(--ink);
+  --danger-bg:var(--paper);
+}
+html[data-theme=dark]{
+  --page-background:#101613;
+  --brand-paper:#151e19;
+  --brand-white:#19221d;
+  --accent:#7cc47f;
+  --accent-hover:#9ccc65;
+  --accent-ink:#0e120c;
+  --forest:#7cc47f;
+  --forest-2:#9ccc65;
+  --green:#7cc47f;
+  --lime:#9ccc65;
+  --mint:#263b2d;
+  --paper:#151e19;
+  --white:#19221d;
+  --ink:#edf4e9;
+  --muted:#b2c0b7;
+  --line:#36453c;
+  --button-ink:#0e120c;
+  --danger:var(--ink);
+  --danger-bg:var(--paper);
+}
+body,.connected-design.app-shell{background:var(--page-background);color:var(--ink)}
+html[data-theme=dark] body{background:var(--page-background)}
+.connected-design .sidebar,html[data-theme=dark] .connected-design .sidebar{
+  background:var(--white)!important;
+  color:var(--ink)!important;
+  border:1px solid var(--line);
+  box-shadow:none;
+}
+.connected-design .sidebar .nav-item>a,
+.connected-design .sidebar .nav-item>a:hover,
+html[data-theme=dark] .connected-design .sidebar .nav-item>a{
+  background:transparent!important;
+  color:var(--ink)!important;
+}
+.connected-design .sidebar .nav-item>a>svg,
+.connected-design .sidebar .nav-submenu-toggle,
+html[data-theme=dark] .connected-design .sidebar .nav-item>a>svg,
+html[data-theme=dark] .connected-design .sidebar .nav-submenu-toggle{color:var(--ink)!important}
+.connected-design .sidebar .nav-item.current>a,
+html[data-theme=dark] .connected-design .sidebar .nav-item.current>a{
+  background:color-mix(in srgb,var(--paper) 86%,transparent)!important;
+  color:var(--ink)!important;
+  font-weight:700;
+  text-decoration:none;
+  border-radius:11px;
+  box-shadow:inset 3px 0 0 var(--forest);
+  backdrop-filter:blur(16px);
+  -webkit-backdrop-filter:blur(16px);
+}
+.connected-design .sidebar .nav-item.current>a>svg,
+.connected-design .sidebar .nav-item.current .nav-submenu-toggle,
+html[data-theme=dark] .connected-design .sidebar .nav-item.current>a>svg{color:var(--ink)!important}
+.connected-design .sidebar .nav-item.current>a:before{display:none}
+.connected-design .sidebar .nav-item:focus-within{outline:2px solid var(--forest);outline-offset:2px}
+.connected-design .sidebar .sidebar-label{color:var(--muted)!important;font-size:.8125rem;font-weight:650;letter-spacing:.01em;overflow-wrap:anywhere}
+.connected-design .sidebar .nav-group+.nav-group{border-color:var(--line)}
+.connected-design .sidebar :is(.sidebar-promo strong,.sidebar-promo p,.sidebar-promo svg,.sidebar-profile,.sidebar-profile strong,.sidebar-profile small),
+html[data-theme=dark] .connected-design .sidebar :is(.sidebar-promo strong,.sidebar-promo p,.sidebar-promo svg,.sidebar-profile,.sidebar-profile strong,.sidebar-profile small){color:var(--ink)!important}
+.connected-design .sidebar .sidebar-promo{background:var(--paper)!important;border-color:var(--line)}
+.connected-design .sidebar .sidebar-promo button{background:var(--accent);color:var(--accent-ink)!important;border-color:var(--accent)}
+.connected-design .sidebar .rail-avatar{background:var(--accent);color:var(--accent-ink)}
+.connected-design .sidebar .nav-item>a,
+.connected-design .compact-topbar .nav-item>a,
+.nav-submenu>a,
+.life-page-tabs>button{transition:background-color .24s ease,color .24s ease,box-shadow .24s ease,transform .24s ease}
+.connected-design .sidebar .nav-item:hover>a:not(.active){background:var(--paper)!important}
+.connected-design .compact-topbar{background:color-mix(in srgb,var(--white) 88%,transparent);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px)}
+.connected-design .compact-topbar .nav-item.current>a{background:var(--paper);border-radius:11px}
+.nav-submenu{background:color-mix(in srgb,var(--white) 92%,transparent);border:1px solid var(--line);box-shadow:0 14px 36px color-mix(in srgb,var(--forest) 12%,transparent);backdrop-filter:blur(22px);-webkit-backdrop-filter:blur(22px)}
+.nav-submenu>a:hover,.nav-submenu>a[aria-current=page]{background:var(--paper);color:var(--ink)}
+:is(.solid-action,.submit-button,.assistant-submit,.assistant-form button,.care-primary-action,.auth-primary,.life-search-submit,.toast,.stepper span.current,.map-empty button,.new-collection>button){background:var(--accent);color:var(--accent-ink)!important}
+:is(.solid-action,.submit-button,.care-primary-action,.auth-primary):hover{background:var(--accent-hover)}
+.profile-cover{background:var(--accent);color:var(--accent-ink)}.profile-cover :is(p,button){color:var(--accent-ink)}
+.assistant-island{background:var(--accent)!important;color:var(--accent-ink)!important}
+::selection{background:var(--paper);color:var(--ink)}
+/* A quiet, direct feed: stories remain available while the first photograph moves up. */
+.connected-design .feed-top{display:flex;justify-content:space-between;gap:16px;align-items:center;padding-bottom:12px}
+.connected-design .feed-top-actions{display:flex;gap:8px;flex:none}
+.connected-design .feed-top-actions button{width:44px;height:44px;display:grid;place-items:center;border:1px solid var(--line);border-radius:12px;background:var(--white);color:var(--ink)}
+.connected-design .feed-top-actions button:hover{background:var(--paper)}
+.connected-design .story-section{background:transparent;border:0;padding:2px 0 7px;margin-bottom:7px}
+.connected-design .story-section-heading{margin-bottom:8px}
+.connected-design .feed-scope{margin:0 0 8px;color:var(--muted)}
+.connected-design .feed-tabs button.active{color:var(--ink);border-color:var(--forest)}
+.connected-design .instagram-feed :is(.social-post,.native-post){box-shadow:none}
+/* Featured life groups read as one photographic doorway; detail remains inside each branch. */
+.life-kingdom-grid{gap:14px}
+.life-kingdom-card,.life-kingdom-card:nth-child(-n+3){display:flex;flex-direction:column;justify-content:flex-end;min-height:235px;border-radius:18px;box-shadow:none;background:var(--forest)!important;isolation:isolate}
+.life-kingdom-card:nth-child(-n+3){min-height:315px}
+.life-kingdom-photo,.life-kingdom-card:nth-child(-n+3) .life-kingdom-photo{position:absolute;inset:0;height:100%;min-height:0;z-index:-1}
+.life-kingdom-photo img{width:100%;height:100%;object-fit:cover}
+.life-kingdom-rank{display:none}
+.life-kingdom-caption{position:relative;display:flex;flex-direction:column;align-items:flex-start;gap:3px;width:100%;padding:46px 20px 20px;color:#fff;background:linear-gradient(transparent,#173b2ae8)}
+.life-kingdom-caption strong{font-size:1.375rem;line-height:1.2;font-weight:650}
+.life-kingdom-card:nth-child(-n+3) .life-kingdom-caption strong{font-size:1.75rem}
+.life-kingdom-caption i{font-size:.875rem;color:#fff}
+.life-kingdom-caption>span{display:none}
+.life-discover :is(.life-kingdom-card,.life-taxon-card,.life-flora-card)[aria-current=page]{box-shadow:0 0 0 2px var(--forest)}
+.life-major-groups{display:grid;gap:20px}
+.life-major-group{min-width:0;background:var(--white);border:1px solid var(--line);border-radius:20px;overflow:hidden}
+.life-major-heading{display:flex;align-items:baseline;gap:14px;padding:19px 22px 14px}
+.life-major-heading>span{font-size:.8125rem;font-weight:700;color:var(--muted)}
+.life-major-heading h3{font-size:1.375rem;font-weight:650;line-height:1.25}
+.life-major-heading i{font-size:.875rem;color:var(--muted);margin-left:auto}
+.life-major-surface{display:grid;grid-template-columns:minmax(0,1fr) minmax(270px,1fr);gap:0;padding:0 10px 10px}
+.life-major-cover{position:relative;min-height:232px;overflow:hidden;border-radius:13px;padding:18px!important;display:flex;align-items:flex-end;isolation:isolate;color:#fff!important}
+.life-major-cover .life-kingdom-photo{position:absolute;inset:0;z-index:-1;width:100%;height:100%}
+.life-major-cover:after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(transparent,#173b2ad9)}
+.life-major-cover>span:last-child{font-weight:600;font-size:.9375rem;line-height:1.4}
+.life-major-branches{min-width:0;display:flex;flex-direction:column;padding:6px 12px 0 22px}
+.life-major-branches>span:first-child{color:var(--muted);font-size:.8125rem;font-weight:600;margin-bottom:4px}
+.life-major-branches>button{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:47px;width:100%;padding:7px 10px;border-radius:10px;border:0;border-bottom:1px solid var(--line);background:transparent;color:var(--ink);text-align:left}
+.life-major-branches>button span:first-child{min-width:0;display:grid;gap:1px}
+.life-major-branches small{font-size:.6875rem;color:var(--muted)}
+.life-major-branches strong{font-size:.9375rem;line-height:1.35;font-weight:600;overflow-wrap:anywhere}
+.life-major-branches>button>span:last-child{font-size:1.25rem;line-height:1}
+.life-major-branches>button.life-major-all{margin-top:auto;border:0;color:var(--forest);font-weight:650;font-size:.875rem}
+.life-major-branches>button:hover,.life-major-branches>button:focus-visible{background:var(--paper)}
+.life-other-title{margin-top:32px}
+.life-other-grid .life-kingdom-card{grid-column:span 3;min-height:210px}
+.life-other-grid .life-kingdom-caption strong{font-size:1.25rem}
+.life-page-tabs{gap:8px;border:0}
+.life-page-tabs>button{border:0;border-radius:10px;background:transparent;padding:11px 15px;min-height:44px}
+.life-page-tabs>button[aria-selected=true]{background:var(--paper);color:var(--ink);border:0}
+.life-branch-rail [aria-current=page]{background:var(--paper);color:var(--ink);box-shadow:inset 2px 0 var(--forest)}
+.species-name-line{display:inline-flex;align-items:center;gap:10px;min-width:0}
+.responsive-photo{display:contents}
+.species-name-photo{display:block;width:30px;height:30px;flex:none;border-radius:9px;object-fit:cover;border:1px solid var(--line);background:var(--paper)}
+.life-node-header .species-name-photo{width:44px;height:44px;border-radius:12px}
+.species-cover-content .species-name-photo{width:42px;height:42px;border-color:color-mix(in srgb,var(--white) 55%,transparent)}
+.native-post .post-species>img.species-name-photo{width:38px;height:38px;border-radius:11px}
+.native-post .post-species>span:has(strong){flex:1;font-size:inherit;color:inherit}
+.pwa-setting{margin-top:22px;border:1px solid var(--line);border-radius:18px;background:var(--white);padding:20px;display:grid;gap:16px}
+.pwa-setting>div{display:flex;align-items:center;gap:14px}
+.pwa-setting img{width:46px;height:46px;object-fit:contain;flex:none}
+.pwa-setting span{display:grid;gap:3px}
+.pwa-setting strong{font-size:.9375rem;color:var(--ink)}
+.pwa-setting small,.pwa-setting p{font-size:.8125rem;color:var(--muted);line-height:1.45;margin:0}
+.pwa-setting button{justify-self:start;min-height:44px;padding:0 18px;border:1px solid var(--line);border-radius:12px;background:var(--paper);color:var(--ink);font:inherit;font-weight:650;cursor:pointer}
+.pwa-setting button:hover{background:color-mix(in srgb,var(--paper) 70%,var(--white))}
+@media(min-width:701px) and (max-width:1100px){
+  .life-major-surface{grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr)}
+  .life-major-heading{flex-wrap:wrap}
+  .life-other-grid .life-kingdom-card{grid-column:span 6}
+}
+@media(max-width:900px){
+  .connected-design .mobile-nav.liquid-dock{
+    background:color-mix(in srgb,var(--white) 86%,transparent)!important;
+    border:1px solid var(--line)!important;
+    box-shadow:0 8px 24px color-mix(in srgb,var(--forest) 14%,transparent)!important;
+    backdrop-filter:blur(24px) saturate(125%);
+    -webkit-backdrop-filter:blur(24px) saturate(125%);
+  }
+  .connected-design .mobile-nav.liquid-dock::before{background:linear-gradient(125deg,color-mix(in srgb,#fff 45%,transparent),transparent 56%)!important}
+  .connected-design .mobile-nav.liquid-dock button{color:var(--ink)!important}
+  .connected-design .mobile-nav.liquid-dock button.active{color:var(--ink)!important}
+  .dock-selection{
+    background:color-mix(in srgb,var(--paper) 84%,transparent)!important;
+    border:1px solid var(--line)!important;
+    box-shadow:inset 0 1px 1px color-mix(in srgb,#fff 70%,transparent),0 2px 9px color-mix(in srgb,var(--forest) 10%,transparent)!important;
+    backdrop-filter:blur(16px);
+    -webkit-backdrop-filter:blur(16px);
+  }
+  .dock-assistant,.dock-assistant.active{background:var(--accent)!important;color:var(--accent-ink)!important;border:1px solid var(--line)!important;box-shadow:none!important}
+  .connected-design .menu-dialog{background:color-mix(in srgb,var(--white) 94%,transparent)!important;border:1px solid var(--line);backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px)}
+  .connected-design .menu-dialog .nav-item.current>a{background:var(--paper);color:var(--ink);border-radius:12px}
+}
+@media(max-width:700px){
+  .connected-design .feed-top{padding-bottom:8px}
+  .connected-design .story-section{padding:2px 0 5px;margin-bottom:5px}
+  .life-kingdom-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+  .life-kingdom-card,.life-kingdom-card:nth-child(-n+3){grid-column:auto;display:flex;min-height:175px;border-radius:13px}
+  .life-kingdom-card:nth-child(-n+3){grid-column:1/-1;min-height:230px}
+  .life-kingdom-caption{padding:38px 13px 14px}
+  .life-kingdom-caption strong,.life-kingdom-card:nth-child(-n+3) .life-kingdom-caption strong{font-size:1.125rem}
+  .life-kingdom-card:nth-child(-n+3) .life-kingdom-caption strong{font-size:1.5rem}
+  .life-kingdom-caption i{font-size:.75rem;overflow-wrap:anywhere}
+  .life-major-groups{gap:14px}
+  .life-major-heading{padding:15px 16px 12px;gap:9px;flex-wrap:wrap}
+  .life-major-heading h3{font-size:1.1875rem}
+  .life-major-heading i{font-size:.8125rem}
+  .life-major-surface{grid-template-columns:1fr;padding:0 8px 8px}
+  .life-major-cover{min-height:165px}
+  .life-major-branches{padding:12px 8px 3px}
+  .life-major-branches>button{min-height:46px}
+  .life-other-grid .life-kingdom-card{grid-column:auto;min-height:155px}
+}
+@media(prefers-reduced-motion:reduce){.connected-design .sidebar .nav-item>a,.connected-design .compact-topbar .nav-item>a,.nav-submenu>a,.life-page-tabs>button{transition:none}}
+@media(forced-colors:active){.connected-design .sidebar .nav-item.current>a{background:Highlight!important;color:HighlightText!important}}

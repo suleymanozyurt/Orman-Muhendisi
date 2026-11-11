@@ -1,0 +1,46 @@
+name: Orman Mühendisi — GitHub Pages
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: github-pages-preview
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - name: GitHub adresine uygun önizlemeyi derle
+        run: node scripts/build-pages.mjs
+        env:
+          PAGES_BASE_PATH: /Orman-Muhendisi-Site/
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _pages
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Pages yayın ayarını doğrula
+        uses: actions/configure-pages@v5
+      - name: GitHub Pages'e yayımla
+        id: deployment
+        uses: actions/deploy-pages@v4

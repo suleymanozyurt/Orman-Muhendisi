@@ -1,0 +1,34 @@
+{
+  "source_project_id": "appgprj_6a66544702f48191bfdbf9fb0a6c86c5",
+  "source_version": 57,
+  "source_commit": "0603b3bd23065e548ce1c9c418a5a9a2e781eab4",
+  "destination_repository": "suleymanozyurt/Orman-Muhendisi-Site",
+  "transfer_date": "2026-10-20",
+  "source_tracked_files": 1053,
+  "unchanged_source_files": 1037,
+  "adapted_source_files": [
+    ".gitignore",
+    "README.md",
+    "vite.config.ts"
+  ],
+  "excluded_generated_files": [
+    ".vinext/fonts/geist-8ac0455e797f/geist-001175b1.woff2",
+    ".vinext/fonts/geist-8ac0455e797f/geist-52306abf.woff2",
+    ".vinext/fonts/geist-8ac0455e797f/geist-875ccdd4.woff2",
+    ".vinext/fonts/geist-8ac0455e797f/geist-98bbbccb.woff2",
+    ".vinext/fonts/geist-8ac0455e797f/geist-ff2310f5.woff2",
+    ".vinext/fonts/geist-8ac0455e797f/style.css",
+    ".vinext/fonts/geist-mono-00e989178794/geist-mono-013b2f2f.woff2",
+    ".vinext/fonts/geist-mono-00e989178794/geist-mono-0638449e.woff2",
+    ".vinext/fonts/geist-mono-00e989178794/geist-mono-44745446.woff2",
+    ".vinext/fonts/geist-mono-00e989178794/geist-mono-44e03052.woff2",
+    ".vinext/fonts/geist-mono-00e989178794/geist-mono-971fb274.woff2",
+    ".vinext/fonts/geist-mono-00e989178794/geist-mono-f6b33328.woff2",
+    ".vinext/fonts/geist-mono-00e989178794/style.css"
+  ],
+  "preserved_destination_commit": "e67c9e8031bf97a4306f2a5a940cdfea547eed8b",
+  "database_migrations_modified": false,
+  "production_data_exported": false,
+  "automatic_bidirectional_sync": false,
+  "hosting_deployment_enabled": false
+}

@@ -1,0 +1,8 @@
+{
+  "retrievedAt": "2026-10-02",
+  "method": "Exact scientific name and species rank; source documents identify the herbal material, not the efficacy of every individual or preparation.",
+  "records": [
+    {"name":"Rosmarinus officinalis","rank":"species","source":"https://www.ema.europa.eu/en/medicines/herbal/rosmarini-folium","sourceName":"European Medicines Agency · Rosmarini folium","materialTr":"Yaprak","materialEn":"Leaf"},
+    {"name":"Mentha x piperita","rank":"species","source":"https://www.ema.europa.eu/en/medicines/herbal/menthae-piperitae-folium","sourceName":"European Medicines Agency · Menthae piperitae folium","materialTr":"Yaprak","materialEn":"Leaf"}
+  ]
+}

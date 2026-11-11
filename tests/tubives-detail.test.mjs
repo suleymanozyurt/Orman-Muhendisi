@@ -1,0 +1,7 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {readFileSync} from 'node:fs';import ts from 'typescript';
+const raw=ts.transpileModule(readFileSync(new URL('../app/tubives-detail-source.ts',import.meta.url),'utf8'),{compilerOptions:{module:ts.ModuleKind.ESNext,target:ts.ScriptTarget.ES2022}}).outputText;const {parseOriginalDetail}=await import('data:text/javascript;base64,'+Buffer.from(raw).toString('base64'));
+const record={name:'Example species',family:'SourceFamily',life:'Çok yıllık'};
+const html='<b>Family</b><big>SourceFamily</big><b>Taxon</b><big><i>Example species</i> <small>L.</small></big>Taxonomic Hierarchy Family <b><i>DifferentFamily</i></b> <small></small> Species <b><i>Example species</i></b> <small>L.</small>General Taxon Information<b>Ömür</b><TD><SMALL>: Çok yıllık<TR><b>Hayat Formu</b><TD><SMALL>: Phanerophyte<TR>Distribution of The Taxon';
+test('original detail parser verifies identity and preserves source classification conflicts without changing taxa',()=>{
+ const fields=parseOriginalDetail(html,record);assert.equal(fields.sourcePublishedName,'Example species L.');assert.equal(fields.lifeForm,'Phanerophyte');assert.equal(fields.hierarchyConflict,true);assert.equal(fields.hierarchy[0].name,'DifferentFamily');assert.throws(()=>parseOriginalDetail(html,{...record,name:'Wrong species'}),/IDENTITY/);assert.throws(()=>parseOriginalDetail(html,{...record,life:'Tek yıllık'}),/FIELDS_CHANGED/);
+});

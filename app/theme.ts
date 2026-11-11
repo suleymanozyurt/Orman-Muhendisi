@@ -1,0 +1,3 @@
+export type ThemeChoice="system"|"light"|"dark";
+export function resolveTheme(choice:ThemeChoice,darkSystem:boolean){return choice==="system"?(darkSystem?"dark":"light"):choice;}
+export const themeBootstrap=`(()=>{try{const p=localStorage.getItem('om.theme');const c=['light','dark','system'].includes(p)?p:'light';const t=c==='system'?(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'):c;document.documentElement.dataset.theme=t;document.documentElement.dataset.themeChoice=c;document.documentElement.style.colorScheme=t;}catch{document.documentElement.dataset.theme='light';document.documentElement.dataset.themeChoice='light';document.documentElement.style.colorScheme='light';}})();`;

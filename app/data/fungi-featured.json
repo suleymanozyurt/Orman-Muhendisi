@@ -1,0 +1,3376 @@
+{
+  "fetchedAt": "2026-10-01T05:59:35.874Z",
+  "source": "https://api.gbif.org/v1/species/search",
+  "records": [
+    {
+      "key": 8168319,
+      "nameKey": 502768,
+      "datasetKey": "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+      "constituentKey": "7ddf754f-d193-4cc9-b351-99906754a03b",
+      "nubKey": 8168319,
+      "parentKey": 6005964,
+      "parent": "Amanita",
+      "basionymKey": 5451774,
+      "basionym": "Agaricus muscarius L.",
+      "kingdom": "Fungi",
+      "phylum": "Basidiomycota",
+      "order": "Agaricales",
+      "family": "Amanitaceae",
+      "genus": "Amanita",
+      "species": "Amanita muscaria",
+      "kingdomKey": 5,
+      "phylumKey": 34,
+      "classKey": 186,
+      "orderKey": 1499,
+      "familyKey": 4171,
+      "genusKey": 6005964,
+      "speciesKey": 8168319,
+      "scientificName": "Amanita muscaria (L.) Lam.",
+      "canonicalName": "Amanita muscaria",
+      "authorship": "(L.) Lam.",
+      "publishedIn": "(1783). Encycl. Méth. Bot. (Paris) 1(1): 111.",
+      "nameType": "SCIENTIFIC",
+      "taxonomicStatus": "ACCEPTED",
+      "rank": "SPECIES",
+      "origin": "SOURCE",
+      "numDescendants": 12,
+      "numOccurrences": 0,
+      "taxonID": "gbif:8168319",
+      "extinct": false,
+      "habitats": [
+        "TERRESTRIAL"
+      ],
+      "nomenclaturalStatus": [],
+      "threatStatuses": [
+        "LEAST_CONCERN",
+        "LEAST_CONCERN",
+        "LEAST_CONCERN"
+      ],
+      "descriptions": [
+        {
+          "description": "Bosque maduro"
+        },
+        {
+          "description": "Bosque maduro"
+        },
+        {
+          "description": "Bosque maduro"
+        },
+        {
+          "description": "2100"
+        },
+        {
+          "description": "2100"
+        },
+        {
+          "description": "2100"
+        },
+        {
+          "description": "Colombia, Tolima, Municipality of Murillo, Vereda Pajonales, Sector La Albania; 4º52'00\"N 75º08'45.4\"W; 2659 m a.s.l.; 22 Oct 2011; leg. Mendoza, C. 2 (HUA 182974) (Gómez-Montoya et al. 2022)."
+        },
+        {
+          "description": "Hongos"
+        },
+        {
+          "description": "FALSO"
+        },
+        {
+          "description": "FALSO"
+        }
+      ],
+      "vernacularNames": [
+        {
+          "vernacularName": "Fly Agaric",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Fly Agaric",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Amanite tue-mouches, Fausse oronge",
+          "language": "fra"
+        },
+        {
+          "vernacularName": "Fly Agaric",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Fly Agaric",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "röd flugsvamp",
+          "language": "swe"
+        },
+        {
+          "vernacularName": "ruksescurotguoppar",
+          "language": "sme"
+        },
+        {
+          "vernacularName": "mirkoguoppar",
+          "language": "sme"
+        },
+        {
+          "vernacularName": "gumpeguoppar",
+          "language": "sme"
+        },
+        {
+          "vernacularName": "rød fluesopp",
+          "language": "nob"
+        },
+        {
+          "vernacularName": "raud flugesopp",
+          "language": "nno"
+        },
+        {
+          "vernacularName": "punakärpässieni",
+          "language": "fin"
+        },
+        {
+          "vernacularName": "Amanita'r Gwybed",
+          "language": "cym"
+        },
+        {
+          "vernacularName": "rød fluesopp",
+          "language": "nob"
+        },
+        {
+          "vernacularName": "ruksescurotguoppar",
+          "language": "sme"
+        },
+        {
+          "vernacularName": "raud flugesopp",
+          "language": "nno"
+        },
+        {
+          "vernacularName": "mirkoguoppar",
+          "language": "sme"
+        },
+        {
+          "vernacularName": "gumpeguoppar",
+          "language": "sme"
+        },
+        {
+          "vernacularName": "Amanita'r Gwybed",
+          "language": "cym"
+        },
+        {
+          "vernacularName": "röd flugsvamp",
+          "language": "swe"
+        },
+        {
+          "vernacularName": "punakärpässieni",
+          "language": "fin"
+        }
+      ],
+      "synonym": false,
+      "higherClassificationMap": {
+        "5": "Fungi",
+        "34": "Basidiomycota",
+        "186": "Agaricomycetes",
+        "1499": "Agaricales",
+        "4171": "Amanitaceae",
+        "6005964": "Amanita"
+      },
+      "class": "Agaricomycetes"
+    },
+    {
+      "key": 5954958,
+      "nameKey": 1532806,
+      "datasetKey": "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+      "constituentKey": "7ddf754f-d193-4cc9-b351-99906754a03b",
+      "nubKey": 5954958,
+      "parentKey": 8287374,
+      "parent": "Boletus",
+      "kingdom": "Fungi",
+      "phylum": "Basidiomycota",
+      "order": "Boletales",
+      "family": "Boletaceae",
+      "genus": "Boletus",
+      "species": "Boletus edulis",
+      "kingdomKey": 5,
+      "phylumKey": 34,
+      "classKey": 186,
+      "orderKey": 1063,
+      "familyKey": 8789,
+      "genusKey": 8287374,
+      "speciesKey": 5954958,
+      "scientificName": "Boletus edulis Bull.",
+      "canonicalName": "Boletus edulis",
+      "authorship": "Bull.",
+      "publishedIn": "(1782). Herb. Fr. (Paris) 2: Tab. 60 (’1781-82′).",
+      "nameType": "SCIENTIFIC",
+      "taxonomicStatus": "ACCEPTED",
+      "rank": "SPECIES",
+      "origin": "SOURCE",
+      "numDescendants": 1,
+      "numOccurrences": 0,
+      "taxonID": "gbif:5954958",
+      "extinct": false,
+      "habitats": [
+        "TERRESTRIAL"
+      ],
+      "nomenclaturalStatus": [],
+      "threatStatuses": [
+        "LEAST_CONCERN",
+        "LEAST_CONCERN",
+        "LEAST_CONCERN",
+        "LEAST_CONCERN",
+        "LEAST_CONCERN"
+      ],
+      "descriptions": [],
+      "vernacularNames": [
+        {
+          "vernacularName": "Penny Bun",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "King Bolete",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Cep, Penny Bun",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Cep",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Cèpe de Bordeaux, Cèpe du Périgord",
+          "language": "fra"
+        },
+        {
+          "vernacularName": "Cep, Penny Bun",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Steinpilz",
+          "language": "deu"
+        },
+        {
+          "vernacularName": "Penny Bun",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Stensopp",
+          "language": "swe"
+        },
+        {
+          "vernacularName": "Karjohanssvamp",
+          "language": "swe"
+        },
+        {
+          "vernacularName": "Porcini",
+          "language": "ita"
+        },
+        {
+          "vernacularName": "Cèpe",
+          "language": "fra"
+        },
+        {
+          "vernacularName": "King Bolete",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Cep",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Gewoon Eekhoorntjesbrood"
+        },
+        {
+          "vernacularName": "gewoon eekhoorntjesbrood",
+          "language": "nld"
+        },
+        {
+          "vernacularName": "Penny Bun",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "King Bolete",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Cep, Penny Bun",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Cep",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Spiselig rørhat/karl johan",
+          "language": "dan"
+        },
+        {
+          "vernacularName": "Gewoon eekhoorntjesbrood",
+          "language": "nld"
+        },
+        {
+          "vernacularName": "美味牛肝菌",
+          "language": "zho"
+        },
+        {
+          "vernacularName": "Magnåve bolet",
+          "language": "wln"
+        },
+        {
+          "vernacularName": "Briza"
+        },
+        {
+          "vernacularName": "Білий гриб",
+          "language": "ukr"
+        },
+        {
+          "vernacularName": "Боровик",
+          "language": "ukr"
+        },
+        {
+          "vernacularName": "çörek mantarı",
+          "language": "tur"
+        },
+        {
+          "vernacularName": "ayı mantarı",
+          "language": "tur"
+        },
+        {
+          "vernacularName": "Stensopp",
+          "language": "swe"
+        },
+        {
+          "vernacularName": "Karljohansvamp",
+          "language": "swe"
+        },
+        {
+          "vernacularName": "Karjohanssvamp",
+          "language": "swe"
+        },
+        {
+          "vernacularName": "Вргањ",
+          "language": "srp"
+        },
+        {
+          "vernacularName": "Pankushe",
+          "language": "sqi"
+        },
+        {
+          "vernacularName": "Pambazo",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "Hongo cemita rey",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "Hongo calabaza",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "Hongo blanco",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "herskogusaguoppar",
+          "language": "sme"
+        },
+        {
+          "vernacularName": "Jesenski goban",
+          "language": "slv"
+        },
+        {
+          "vernacularName": "hríb smrekový",
+          "language": "slk"
+        },
+        {
+          "vernacularName": "Боровик березовый",
+          "language": "rus"
+        },
+        {
+          "vernacularName": "Белый гриб березовый",
+          "language": "rus"
+        },
+        {
+          "vernacularName": "Белый гриб",
+          "language": "rus"
+        },
+        {
+          "vernacularName": "Hrib",
+          "language": "ron"
+        },
+        {
+          "vernacularName": "Madeirudo",
+          "language": "por"
+        },
+        {
+          "vernacularName": "Cepes",
+          "language": "por"
+        },
+        {
+          "vernacularName": "Prawdziwek",
+          "language": "pol"
+        },
+        {
+          "vernacularName": "Borowik szlachetny",
+          "language": "pol"
+        },
+        {
+          "vernacularName": "Porsin"
+        },
+        {
+          "vernacularName": "Ogimaawikwaan wazaashkwedoowin",
+          "language": "oji"
+        },
+        {
+          "vernacularName": "steinsopp",
+          "language": "nob"
+        },
+        {
+          "vernacularName": "Gewoon eekhoorntjesbrood",
+          "language": "nld"
+        },
+        {
+          "vernacularName": "Eekhoorntjesbrood",
+          "language": "nld"
+        },
+        {
+          "vernacularName": "Boletus edulis",
+          "language": "msa"
+        },
+        {
+          "vernacularName": "Steepilz",
+          "language": "ltz"
+        },
+        {
+          "vernacularName": "Tikrinis baravykas",
+          "language": "lit"
+        },
+        {
+          "vernacularName": "Beržyninis baravykas",
+          "language": "lit"
+        },
+        {
+          "vernacularName": "Egļu baravika",
+          "language": "lav"
+        },
+        {
+          "vernacularName": "დათვისსოკო",
+          "language": "kat"
+        },
+        {
+          "vernacularName": "山鳥茸",
+          "language": "jpn"
+        },
+        {
+          "vernacularName": "ヤマドリタケ",
+          "language": "jpn"
+        },
+        {
+          "vernacularName": "Porcino edule",
+          "language": "ita"
+        },
+        {
+          "vernacularName": "Porcino",
+          "language": "ita"
+        },
+        {
+          "vernacularName": "Porcini",
+          "language": "ita"
+        },
+        {
+          "vernacularName": "Boleto edule",
+          "language": "ita"
+        },
+        {
+          "vernacularName": "Kóngssveppur",
+          "language": "isl"
+        },
+        {
+          "vernacularName": "Սպիտակ սունկ",
+          "language": "hye"
+        },
+        {
+          "vernacularName": "Ízletes vargánya",
+          "language": "hun"
+        },
+        {
+          "vernacularName": "Ljetni vrganj",
+          "language": "hrv"
+        },
+        {
+          "vernacularName": "Boleto bo",
+          "language": "glg"
+        },
+        {
+          "vernacularName": "Andoa",
+          "language": "glg"
+        },
+        {
+          "vernacularName": "Cèpe de Bordeaux",
+          "language": "fra"
+        },
+        {
+          "vernacularName": "Cèpe",
+          "language": "fra"
+        },
+        {
+          "vernacularName": "koivunherkkutatti",
+          "language": "fin"
+        },
+        {
+          "vernacularName": "herkkutatti",
+          "language": "fin"
+        },
+        {
+          "vernacularName": "Onddozuri",
+          "language": "eus"
+        },
+        {
+          "vernacularName": "Harilik kivipuravik",
+          "language": "est"
+        },
+        {
+          "vernacularName": "Boleto",
+          "language": "epo"
+        },
+        {
+          "vernacularName": "Penny Bun",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "King Bolete",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Cep",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Πορτσίνι",
+          "language": "ell"
+        },
+        {
+          "vernacularName": "Βωλίτης ο φαγώσιμος",
+          "language": "ell"
+        },
+        {
+          "vernacularName": "Βωλίτης ο εδώδιμος",
+          "language": "ell"
+        },
+        {
+          "vernacularName": "Βασιλομανίταρο",
+          "language": "ell"
+        },
+        {
+          "vernacularName": "Steinpilz",
+          "language": "deu"
+        },
+        {
+          "vernacularName": "Herrenpilz",
+          "language": "deu"
+        },
+        {
+          "vernacularName": "Gemeiner Steinpilz",
+          "language": "deu"
+        },
+        {
+          "vernacularName": "Fichtensteinpilz",
+          "language": "deu"
+        },
+        {
+          "vernacularName": "Fichten-Steinpilz",
+          "language": "deu"
+        },
+        {
+          "vernacularName": "Edelpilz",
+          "language": "deu"
+        },
+        {
+          "vernacularName": "Dobernickel",
+          "language": "deu"
+        },
+        {
+          "vernacularName": "Birkensteinpilz",
+          "language": "deu"
+        },
+        {
+          "vernacularName": "Spiselig rørhat/karl johan",
+          "language": "dan"
+        },
+        {
+          "vernacularName": "Spiselig rørhat",
+          "language": "dan"
+        },
+        {
+          "vernacularName": "Karl Johan",
+          "language": "dan"
+        },
+        {
+          "vernacularName": "Wicsen Gron",
+          "language": "cym"
+        },
+        {
+          "vernacularName": "hřib smrkový",
+          "language": "ces"
+        },
+        {
+          "vernacularName": "hřib březový",
+          "language": "ces"
+        },
+        {
+          "vernacularName": "Cep (bolet)",
+          "language": "cat"
+        },
+        {
+          "vernacularName": "Обикновена манатарка",
+          "language": "bul"
+        },
+        {
+          "vernacularName": "Vrganj",
+          "language": "bos"
+        },
+        {
+          "vernacularName": "বোলেটাস এডুলিস",
+          "language": "ben"
+        },
+        {
+          "vernacularName": "Праўдзівы грыб",
+          "language": "bel"
+        },
+        {
+          "vernacularName": "Белы грыб",
+          "language": "bel"
+        },
+        {
+          "vernacularName": "Баравік",
+          "language": "bel"
+        },
+        {
+          "vernacularName": "Herrnbüz"
+        },
+        {
+          "vernacularName": "Sep",
+          "language": "afr"
+        },
+        {
+          "vernacularName": "Eetbare Boleet",
+          "language": "afr"
+        },
+        {
+          "vernacularName": "steinsopp",
+          "language": "nno"
+        },
+        {
+          "vernacularName": "steinsopp",
+          "language": "nob"
+        },
+        {
+          "vernacularName": "herskogusaguoppar",
+          "language": "sme"
+        },
+        {
+          "vernacularName": "Calabaza, hongo",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "onto zuri",
+          "language": "eus"
+        },
+        {
+          "vernacularName": "sureny",
+          "language": "cat"
+        },
+        {
+          "vernacularName": "siuró",
+          "language": "cat"
+        },
+        {
+          "vernacularName": "cep",
+          "language": "cat"
+        },
+        {
+          "vernacularName": "seta de Burdeos",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "sureny",
+          "language": "cat"
+        },
+        {
+          "vernacularName": "onto zuri",
+          "language": "eus"
+        },
+        {
+          "vernacularName": "hongo calabaza",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "hongo calabaza",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "Siureny",
+          "language": "cat"
+        },
+        {
+          "vernacularName": "onyo-zuriya",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "udazkeneko",
+          "language": "eus"
+        },
+        {
+          "vernacularName": "sureny",
+          "language": "cat"
+        },
+        {
+          "vernacularName": "madeirudo , andoa",
+          "language": "glg"
+        },
+        {
+          "vernacularName": "calabaza, hongo, boleto comestible",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "sureny, siureny",
+          "language": "cat"
+        },
+        {
+          "vernacularName": "sureny",
+          "language": "cat"
+        },
+        {
+          "vernacularName": "onto zuri, ziza arrizcoa, zizabal, onddo ona",
+          "language": "eus"
+        },
+        {
+          "vernacularName": "sureny, surenc, bolet de fay",
+          "language": "cat"
+        },
+        {
+          "vernacularName": "onto zuri, ziza lis, zizabal, onddo ona",
+          "language": "eus"
+        },
+        {
+          "vernacularName": "faisán, sigro, frongo, matute, hongo, calabaza, pan de risquillu, pan de sapo",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "ondoak",
+          "language": "eus"
+        },
+        {
+          "vernacularName": "onto-zuriya",
+          "language": "eus"
+        },
+        {
+          "vernacularName": "hongo blanco",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "onduak",
+          "language": "eus"
+        },
+        {
+          "vernacularName": "sureny",
+          "language": "cat"
+        },
+        {
+          "vernacularName": "pinotell, siurenys",
+          "language": "cat"
+        },
+        {
+          "vernacularName": "pinatell",
+          "language": "cat"
+        },
+        {
+          "vernacularName": "bolets de bou",
+          "language": "cat"
+        },
+        {
+          "vernacularName": "onyo-zuriya",
+          "language": "eus"
+        },
+        {
+          "vernacularName": "Suroy",
+          "language": "cat"
+        },
+        {
+          "vernacularName": "Cep",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Penny Bun",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Penny Bun",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Cep",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Wicsen Gron",
+          "language": "cym"
+        },
+        {
+          "vernacularName": "stensopp",
+          "language": "swe"
+        },
+        {
+          "vernacularName": "karljohanssvamp",
+          "language": "swe"
+        },
+        {
+          "vernacularName": "karljohan",
+          "language": "swe"
+        },
+        {
+          "vernacularName": "Karljohans svamp",
+          "language": "swe"
+        },
+        {
+          "vernacularName": "ku-sop",
+          "language": "nor"
+        },
+        {
+          "vernacularName": "bu-sop",
+          "language": "nor"
+        },
+        {
+          "vernacularName": "ku-sop",
+          "language": "nor"
+        },
+        {
+          "vernacularName": "bu-sop",
+          "language": "nor"
+        },
+        {
+          "vernacularName": "ku-sop",
+          "language": "nor"
+        },
+        {
+          "vernacularName": "bu-sop",
+          "language": "nor"
+        },
+        {
+          "vernacularName": "herkkutatti",
+          "language": "fin"
+        }
+      ],
+      "synonym": false,
+      "higherClassificationMap": {
+        "5": "Fungi",
+        "34": "Basidiomycota",
+        "186": "Agaricomycetes",
+        "1063": "Boletales",
+        "8789": "Boletaceae",
+        "8287374": "Boletus"
+      },
+      "class": "Agaricomycetes"
+    },
+    {
+      "key": 5249504,
+      "nameKey": 1949980,
+      "datasetKey": "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+      "constituentKey": "7ddf754f-d193-4cc9-b351-99906754a03b",
+      "nubKey": 5249504,
+      "parentKey": 9623860,
+      "parent": "Cantharellus",
+      "kingdom": "Fungi",
+      "phylum": "Basidiomycota",
+      "order": "Cantharellales",
+      "family": "Hydnaceae",
+      "genus": "Cantharellus",
+      "species": "Cantharellus cibarius",
+      "kingdomKey": 5,
+      "phylumKey": 34,
+      "classKey": 186,
+      "orderKey": 1300,
+      "familyKey": 8460,
+      "genusKey": 9623860,
+      "speciesKey": 5249504,
+      "scientificName": "Cantharellus cibarius Fr.",
+      "canonicalName": "Cantharellus cibarius",
+      "authorship": "Fr.",
+      "publishedIn": "(1821). Syst. Mycol. (Lundae) 1: 318.",
+      "nameType": "SCIENTIFIC",
+      "taxonomicStatus": "ACCEPTED",
+      "rank": "SPECIES",
+      "origin": "SOURCE",
+      "numDescendants": 14,
+      "numOccurrences": 0,
+      "taxonID": "gbif:5249504",
+      "extinct": false,
+      "habitats": [
+        "TERRESTRIAL"
+      ],
+      "nomenclaturalStatus": [],
+      "threatStatuses": [
+        "LEAST_CONCERN",
+        "LEAST_CONCERN",
+        "VULNERABLE",
+        "LEAST_CONCERN"
+      ],
+      "descriptions": [
+        {
+          "description": "Type not designated."
+        },
+        {
+          "description": "Original material: [icon] in Vaillant, Bot. Paris.: 60, t. 11, f. 9 - 15. 1727."
+        },
+        {
+          "description": "\" Habitat in Pratis. \" RCN: 8426."
+        },
+        {
+          "description": "NEOTYPE. — United Kingdom, England, Devon, Bovey Tracey, Tradbere Down, on the ground near Betula, 3. X. 1992, N. W. Legon, K (M) 22132. (Olariaga et al. 2016). MATERIAL EXAMINED. — Tuan County, Jilin Prov., China. Changbai Mountain Natural Reserve, 7. VIII. 2010, Wang XH 2580, (HKAS [HKAS 58234])."
+        },
+        {
+          "description": "HABIT, HABITAT AND DISTRIBUTION. — Single to caespitose, forming ectomycorrhizae with Pinus koraiensis or Quercus mongolica. Present in Jilin Province, northeastern China."
+        },
+        {
+          "description": "MYCOBANK. — 201371."
+        },
+        {
+          "description": "DESCRIPTION OF THE CHINESE COLLECTION Basidiomata Fleshy, medium-sized. Pileus Convex-planar, later becoming more or less planar with age; margin incurved or straight, regular or folded, smooth, thin; with surface smooth to minutely pubescent, orange-yellow (3 A 7, 3 A 8) to bright yellow at the margin (1 A 7, 2 A 6). Context Solid. Hymenophore With well-defined gill-like folds, up to 3 mm, decurrent, forking and anastomosing only near the cap margin, pale yellow to light yellow (3 A 2, 3 A 3). Stipe Solid, subcylindrical tapering downwards, concolorous with the hymenophore with a yellow tint (2 A 6). Odor Mild, agreeable, sometimes fruity. Taste Mild, agreeable. Spore print No color. Basidiospores Oblong to reniform, smooth, colorless, and hyaline, thinwalled, 8 - 10 × 5 - 6 µm. Xm = 9.14 × 5.08 µm, Q = 1.60 - 2.0. Basidia 80 - 105 × 7 - 9 (- 10) µm, long and slender, 5 - 6 sterigmata. Cystidia Absent. Hymenophoral trama Composed of intermingled filamentous hyphae 3.0 - 5.0 µm diam., colorless, thin-walled in an irregular arrangement. Pileipellis Mainly of the cutis type, in some areas of the surface, the terminal hyphae may be erect, forming an intricate trichoderm and cluster of hyphae. Hyphae of the pileipellis 4.0 - 6.0 µm diam., intermingled in a compact (cutis) or slightly loose (trichoderm) arrangement, cylindrical, hyaline to yellowish, often with light yellow contents in some, decidedly light yellow-colored, slightly thick-walled (<1 µm thick); distinctive terminal elements 28 - 76 × 5 - 7 µm broad, thick-walled (1 µm thick), smooth, hyaline to light yellow. Pileus trama Composed of cylindrical to inflated hyphae, 4 - 6 µm diam., slightly thick-walled (<1 µm thick), hyaline, yellowish in mass. Clamp connections Present in all tissues examined."
+        },
+        {
+          "description": "(Figs 5 - 6)"
+        }
+      ],
+      "vernacularNames": [
+        {
+          "vernacularName": "Chanterelle",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Siantrel",
+          "language": "cym"
+        },
+        {
+          "vernacularName": "kantarell",
+          "language": "swe"
+        },
+        {
+          "vernacularName": "krett-sopp",
+          "language": "nor"
+        },
+        {
+          "vernacularName": "keltavahvero",
+          "language": "fin"
+        },
+        {
+          "vernacularName": "Golden Chanterelle",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Chanterelle",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Girolle",
+          "language": "fra"
+        },
+        {
+          "vernacularName": "Chanterelle",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Pfifferling, Eierschwamm",
+          "language": "deu"
+        },
+        {
+          "vernacularName": "hanekam",
+          "language": "nld"
+        },
+        {
+          "vernacularName": "Golden Chanterelle",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Chanterelle",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Almindelig kantarel",
+          "language": "dan"
+        },
+        {
+          "vernacularName": "Hanenkam",
+          "language": "nld"
+        },
+        {
+          "vernacularName": "Hanekam",
+          "language": "nld"
+        },
+        {
+          "vernacularName": "雞油菇",
+          "language": "zho"
+        },
+        {
+          "vernacularName": "Лисичка справжня",
+          "language": "ukr"
+        },
+        {
+          "vernacularName": "sarıkız mantarı",
+          "language": "tur"
+        },
+        {
+          "vernacularName": "kantarel mantarı",
+          "language": "tur"
+        },
+        {
+          "vernacularName": "เห็ดมันปู",
+          "language": "tha"
+        },
+        {
+          "vernacularName": "Rebozuelo",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "Duraznillo",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "Chantarela",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "Anacate",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "chihumbiro",
+          "language": "sna"
+        },
+        {
+          "vernacularName": "kantarealla",
+          "language": "sme"
+        },
+        {
+          "vernacularName": "navadna lisička",
+          "language": "slv"
+        },
+        {
+          "vernacularName": "kuriatko jedlé",
+          "language": "slk"
+        },
+        {
+          "vernacularName": "Лисичка обыкновенная",
+          "language": "rus"
+        },
+        {
+          "vernacularName": "Лисичка жёлтая",
+          "language": "rus"
+        },
+        {
+          "vernacularName": "cantarelo-gema-de-ovo",
+          "language": "por"
+        },
+        {
+          "vernacularName": "Rapazinho",
+          "language": "por"
+        },
+        {
+          "vernacularName": "Pieprznik jadalny",
+          "language": "pol"
+        },
+        {
+          "vernacularName": "kantarell",
+          "language": "nob"
+        },
+        {
+          "vernacularName": "Hanenkam",
+          "language": "nld"
+        },
+        {
+          "vernacularName": "Hanekam",
+          "language": "nld"
+        },
+        {
+          "vernacularName": "Лисичарка",
+          "language": "mkd"
+        },
+        {
+          "vernacularName": "Lisicharka",
+          "language": "mkd"
+        },
+        {
+          "vernacularName": "Echten Héngerfouss",
+          "language": "ltz"
+        },
+        {
+          "vernacularName": "Valgomoji voveraitė",
+          "language": "lit"
+        },
+        {
+          "vernacularName": "Parastā Gailene",
+          "language": "lav"
+        },
+        {
+          "vernacularName": "chihombiro"
+        },
+        {
+          "vernacularName": "꾀꼬리버섯",
+          "language": "kor"
+        },
+        {
+          "vernacularName": "アンズタケ",
+          "language": "jpn"
+        },
+        {
+          "vernacularName": "Margherita",
+          "language": "ita"
+        },
+        {
+          "vernacularName": "Gialletto",
+          "language": "ita"
+        },
+        {
+          "vernacularName": "Garitola",
+          "language": "ita"
+        },
+        {
+          "vernacularName": "Galluccio",
+          "language": "ita"
+        },
+        {
+          "vernacularName": "Gallinella",
+          "language": "ita"
+        },
+        {
+          "vernacularName": "Gallinaccio",
+          "language": "ita"
+        },
+        {
+          "vernacularName": "Galletto",
+          "language": "ita"
+        },
+        {
+          "vernacularName": "Gallastruzzo",
+          "language": "ita"
+        },
+        {
+          "vernacularName": "Gaitello",
+          "language": "ita"
+        },
+        {
+          "vernacularName": "Gaetello",
+          "language": "ita"
+        },
+        {
+          "vernacularName": "Finferlo",
+          "language": "ita"
+        },
+        {
+          "vernacularName": "Cardarella",
+          "language": "ita"
+        },
+        {
+          "vernacularName": "Աղվեսասունկ",
+          "language": "hye"
+        },
+        {
+          "vernacularName": "sárgagomba",
+          "language": "hun"
+        },
+        {
+          "vernacularName": "nyúlgomba",
+          "language": "hun"
+        },
+        {
+          "vernacularName": "nyulica",
+          "language": "hun"
+        },
+        {
+          "vernacularName": "csirkegomba",
+          "language": "hun"
+        },
+        {
+          "vernacularName": "Sárga rókagomba",
+          "language": "hun"
+        },
+        {
+          "vernacularName": "Cantarelo",
+          "language": "glg"
+        },
+        {
+          "vernacularName": "Cantarela",
+          "language": "glg"
+        },
+        {
+          "vernacularName": "Roussotte",
+          "language": "fra"
+        },
+        {
+          "vernacularName": "Roussette",
+          "language": "fra"
+        },
+        {
+          "vernacularName": "Mérule Chanterelle",
+          "language": "fra"
+        },
+        {
+          "vernacularName": "Jaunotte",
+          "language": "fra"
+        },
+        {
+          "vernacularName": "Jauniré",
+          "language": "fra"
+        },
+        {
+          "vernacularName": "Girolle",
+          "language": "fra"
+        },
+        {
+          "vernacularName": "Girole",
+          "language": "fra"
+        },
+        {
+          "vernacularName": "Gallinace",
+          "language": "fra"
+        },
+        {
+          "vernacularName": "Fifrelin",
+          "language": "fra"
+        },
+        {
+          "vernacularName": "Chevrette",
+          "language": "fra"
+        },
+        {
+          "vernacularName": "Chanterelle à plis pâles",
+          "language": "fra"
+        },
+        {
+          "vernacularName": "Chanterelle commune",
+          "language": "fra"
+        },
+        {
+          "vernacularName": "keltavahvero",
+          "language": "fin"
+        },
+        {
+          "vernacularName": "harilik kukeseen",
+          "language": "est"
+        },
+        {
+          "vernacularName": "Golden Chanterelle",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Chanterelle",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Κανθαρέλλα",
+          "language": "ell"
+        },
+        {
+          "vernacularName": "Canthariscos",
+          "language": "ell"
+        },
+        {
+          "vernacularName": "Pfifferling",
+          "language": "deu"
+        },
+        {
+          "vernacularName": "Eierschwammerl",
+          "language": "deu"
+        },
+        {
+          "vernacularName": "Echter Pfifferling",
+          "language": "deu"
+        },
+        {
+          "vernacularName": "Almindelig kantarel",
+          "language": "dan"
+        },
+        {
+          "vernacularName": "Siantrel",
+          "language": "cym"
+        },
+        {
+          "vernacularName": "liška obecná",
+          "language": "ces"
+        },
+        {
+          "vernacularName": "Vaqueta",
+          "language": "cat"
+        },
+        {
+          "vernacularName": "Rossinyol",
+          "language": "cat"
+        },
+        {
+          "vernacularName": "Лісічка сапраўдная",
+          "language": "bel"
+        },
+        {
+          "vernacularName": "Oaschwammerl"
+        },
+        {
+          "vernacularName": "kantarell",
+          "language": "nno"
+        },
+        {
+          "vernacularName": "kantarell",
+          "language": "nob"
+        },
+        {
+          "vernacularName": "kantarealla",
+          "language": "sme"
+        },
+        {
+          "vernacularName": "Russinyol",
+          "language": "cat"
+        },
+        {
+          "vernacularName": "platera",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "russinyol",
+          "language": "cat"
+        },
+        {
+          "vernacularName": "ziza ori",
+          "language": "eus"
+        },
+        {
+          "vernacularName": "rossinyol",
+          "language": "cat"
+        },
+        {
+          "vernacularName": "cantarela, cabrilla, girola",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "susa",
+          "language": "eus"
+        },
+        {
+          "vernacularName": "cabrilla",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "rossinyol",
+          "language": "cat"
+        },
+        {
+          "vernacularName": "rossinyol",
+          "language": "cat"
+        },
+        {
+          "vernacularName": "rebozuelo, membrillo",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "izahori, saltzaperretxiko",
+          "language": "eus"
+        },
+        {
+          "vernacularName": "rebozuelo",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "seta de brezo",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "seta amarilla",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "saltxaperretxiko",
+          "language": "eus"
+        },
+        {
+          "vernacularName": "rebozuelo",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "cantarela",
+          "language": "glg"
+        },
+        {
+          "vernacularName": "rebozuelo",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "zizahori",
+          "language": "eus"
+        },
+        {
+          "vernacularName": "pan de cabra",
+          "language": "glg"
+        },
+        {
+          "vernacularName": "zizahori, saltxaperretxiko, susa",
+          "language": "eus"
+        },
+        {
+          "vernacularName": "seta de brezo, seta amarilla",
+          "language": "spa"
+        }
+      ],
+      "synonym": false,
+      "higherClassificationMap": {
+        "5": "Fungi",
+        "34": "Basidiomycota",
+        "186": "Agaricomycetes",
+        "1300": "Cantharellales",
+        "8460": "Hydnaceae",
+        "9623860": "Cantharellus"
+      },
+      "class": "Agaricomycetes"
+    },
+    {
+      "key": 2594602,
+      "nameKey": 7172688,
+      "datasetKey": "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+      "constituentKey": "7ddf754f-d193-4cc9-b351-99906754a03b",
+      "nubKey": 2594602,
+      "parentKey": 2594601,
+      "parent": "Morchella",
+      "basionymKey": 2594609,
+      "basionym": "Phallus esculentus L.",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "order": "Pezizales",
+      "family": "Morchellaceae",
+      "genus": "Morchella",
+      "species": "Morchella esculenta",
+      "kingdomKey": 5,
+      "phylumKey": 95,
+      "classKey": 316,
+      "orderKey": 1057,
+      "familyKey": 8398,
+      "genusKey": 2594601,
+      "speciesKey": 2594602,
+      "scientificName": "Morchella esculenta (L.) Pers.",
+      "canonicalName": "Morchella esculenta",
+      "authorship": "(L.) Pers.",
+      "publishedIn": "(1794). Neues Mag. Bot. 1: 116.",
+      "nameType": "SCIENTIFIC",
+      "taxonomicStatus": "ACCEPTED",
+      "rank": "SPECIES",
+      "origin": "SOURCE",
+      "numDescendants": 11,
+      "numOccurrences": 0,
+      "taxonID": "gbif:2594602",
+      "extinct": false,
+      "habitats": [
+        "TERRESTRIAL"
+      ],
+      "nomenclaturalStatus": [],
+      "threatStatuses": [
+        "VULNERABLE",
+        "NOT_EVALUATED",
+        "LEAST_CONCERN"
+      ],
+      "descriptions": [
+        {
+          "description": "Type not designated."
+        },
+        {
+          "description": "Original material: [icon] in Tournefort, Inst. Rei Herb.: 561, t. 329, f. A. 1700; [icon] in Micheli, Nov. Pl. Gen.: 203, t. 85, f. 1 & 2. 1729."
+        },
+        {
+          "description": "\" Habitat in Sylvis antiquis. \" RCN: 8486."
+        }
+      ],
+      "vernacularNames": [
+        {
+          "vernacularName": "Yellow Morel",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Morel",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Morille ronde, Morille grise",
+          "language": "fra"
+        },
+        {
+          "vernacularName": "Morel",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Speisemorchel",
+          "language": "deu"
+        },
+        {
+          "vernacularName": "gewone morielje",
+          "language": "nld"
+        },
+        {
+          "vernacularName": "Yellow Morel",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Morel",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Spiselig morkel",
+          "language": "dan"
+        },
+        {
+          "vernacularName": "Gewone morielje",
+          "language": "nld"
+        },
+        {
+          "vernacularName": "美味羊肚菌",
+          "language": "zho"
+        },
+        {
+          "vernacularName": "羊肚菌",
+          "language": "zho"
+        },
+        {
+          "vernacularName": "Зморшок їстівний",
+          "language": "ukr"
+        },
+        {
+          "vernacularName": "kuzu göbeği mantarı",
+          "language": "tur"
+        },
+        {
+          "vernacularName": "Kuzugöbeği",
+          "language": "tur"
+        },
+        {
+          "vernacularName": "rund toppmurkla",
+          "language": "swe"
+        },
+        {
+          "vernacularName": "murúgula",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "morilla común",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "colmenilla",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "cagarria",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "Bolsita amarilla de borrego",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "užitni smrček",
+          "language": "slv"
+        },
+        {
+          "vernacularName": "Mavrah",
+          "language": "slv"
+        },
+        {
+          "vernacularName": "Сморчок съедобный",
+          "language": "rus"
+        },
+        {
+          "vernacularName": "Paqu wiksa-wiksa",
+          "language": "que"
+        },
+        {
+          "vernacularName": "Pantorra-Belfurada",
+          "language": "por"
+        },
+        {
+          "vernacularName": "smardz jadalny",
+          "language": "pol"
+        },
+        {
+          "vernacularName": "Genwaakizid Waazashkwedowin",
+          "language": "oji"
+        },
+        {
+          "vernacularName": "rundmorkel",
+          "language": "nob"
+        },
+        {
+          "vernacularName": "grønnlig rundmorkel",
+          "language": "nob"
+        },
+        {
+          "vernacularName": "grønleg rundmorkel",
+          "language": "nno"
+        },
+        {
+          "vernacularName": "Gewone morielje",
+          "language": "nld"
+        },
+        {
+          "vernacularName": "Смрчка",
+          "language": "mkd"
+        },
+        {
+          "vernacularName": "minohsakayi"
+        },
+        {
+          "vernacularName": "Genéisser-Wabepilz",
+          "language": "ltz"
+        },
+        {
+          "vernacularName": "Valgomasis briedžiukas",
+          "language": "lit"
+        },
+        {
+          "vernacularName": "곰보버섯",
+          "language": "kor"
+        },
+        {
+          "vernacularName": "編笠茸",
+          "language": "jpn"
+        },
+        {
+          "vernacularName": "アミガサタケ",
+          "language": "jpn"
+        },
+        {
+          "vernacularName": "Ízletes kucsmagomba",
+          "language": "hun"
+        },
+        {
+          "vernacularName": "גמצוצית נאכלת",
+          "language": "heb"
+        },
+        {
+          "vernacularName": "גמצוץ נאכל",
+          "language": "heb"
+        },
+        {
+          "vernacularName": "גַּמְצוּצִית נֶאֱכֶלֶת",
+          "language": "heb"
+        },
+        {
+          "vernacularName": "Morille commune",
+          "language": "fra"
+        },
+        {
+          "vernacularName": "Morille comestible",
+          "language": "fra"
+        },
+        {
+          "vernacularName": "Morille blonde",
+          "language": "fra"
+        },
+        {
+          "vernacularName": "pallohuhtasieni",
+          "language": "fin"
+        },
+        {
+          "vernacularName": "ümarmürkel",
+          "language": "est"
+        },
+        {
+          "vernacularName": "Yellow Morel",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Morel",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Common Morel",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Speisemorchel",
+          "language": "deu"
+        },
+        {
+          "vernacularName": "Speise-Morchel",
+          "language": "deu"
+        },
+        {
+          "vernacularName": "Speise- oder Rund-Morchel",
+          "language": "deu"
+        },
+        {
+          "vernacularName": "Rund-Morchel",
+          "language": "deu"
+        },
+        {
+          "vernacularName": "Spiselig morkel",
+          "language": "dan"
+        },
+        {
+          "vernacularName": "Morel Cyffredin",
+          "language": "cym"
+        },
+        {
+          "vernacularName": "ᎤᏂᏒᏙᏂ"
+        },
+        {
+          "vernacularName": "smrž obecný",
+          "language": "ces"
+        },
+        {
+          "vernacularName": "Смръчкула",
+          "language": "bul"
+        },
+        {
+          "vernacularName": "Обикновена смръчкула",
+          "language": "bul"
+        },
+        {
+          "vernacularName": "rundmorkel",
+          "language": "nno"
+        },
+        {
+          "vernacularName": "rundmorkel",
+          "language": "nob"
+        },
+        {
+          "vernacularName": "grønnlig rundmorkel",
+          "language": "nob"
+        },
+        {
+          "vernacularName": "grønleg rundmorkel",
+          "language": "nno"
+        },
+        {
+          "vernacularName": "Morel",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Morel Cyffredin",
+          "language": "cym"
+        },
+        {
+          "vernacularName": "toppmurkla",
+          "language": "swe"
+        },
+        {
+          "vernacularName": "stor toppmurkla",
+          "language": "swe"
+        },
+        {
+          "vernacularName": "rund toppmurkla",
+          "language": "swe"
+        },
+        {
+          "vernacularName": "morckla",
+          "language": "swe"
+        },
+        {
+          "vernacularName": "morkler",
+          "language": "nor"
+        },
+        {
+          "vernacularName": "pallohuhtasieni",
+          "language": "fin"
+        }
+      ],
+      "synonym": false,
+      "higherClassificationMap": {
+        "5": "Fungi",
+        "95": "Ascomycota",
+        "316": "Pezizomycetes",
+        "1057": "Pezizales",
+        "8398": "Morchellaceae",
+        "2594601": "Morchella"
+      },
+      "class": "Pezizomycetes"
+    },
+    {
+      "key": 5243447,
+      "nameKey": 17274702,
+      "datasetKey": "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+      "constituentKey": "7ddf754f-d193-4cc9-b351-99906754a03b",
+      "nubKey": 5243447,
+      "parentKey": 2518646,
+      "parent": "Agaricus",
+      "kingdom": "Fungi",
+      "phylum": "Basidiomycota",
+      "order": "Agaricales",
+      "family": "Agaricaceae",
+      "genus": "Agaricus",
+      "species": "Agaricus bisporus",
+      "kingdomKey": 5,
+      "phylumKey": 34,
+      "classKey": 186,
+      "orderKey": 1499,
+      "familyKey": 4170,
+      "genusKey": 2518646,
+      "speciesKey": 5243447,
+      "scientificName": "Agaricus bisporus (J.E.Lange) Imbach",
+      "canonicalName": "Agaricus bisporus",
+      "authorship": "(J.E.Lange) Imbach",
+      "publishedIn": "(1946). Mitt. Naturf. Ges. Luzern 15: 15.",
+      "nameType": "SCIENTIFIC",
+      "taxonomicStatus": "ACCEPTED",
+      "rank": "SPECIES",
+      "origin": "SOURCE",
+      "numDescendants": 8,
+      "numOccurrences": 0,
+      "taxonID": "gbif:5243447",
+      "extinct": false,
+      "habitats": [
+        "TERRESTRIAL",
+        "TERRESTRIAL"
+      ],
+      "nomenclaturalStatus": [],
+      "threatStatuses": [
+        "NOT_APPLICABLE"
+      ],
+      "descriptions": [
+        {
+          "description": "Solitario"
+        },
+        {
+          "description": "Bosque de roble"
+        },
+        {
+          "description": "2200"
+        },
+        {
+          "description": "2200"
+        },
+        {
+          "description": "2200"
+        },
+        {
+          "description": "1450"
+        }
+      ],
+      "vernacularNames": [
+        {
+          "vernacularName": "Cultivated Mushroom, Field Mushroom",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Cultivated Mushroom",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Cultivated Mushroom, Field Mushroom",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Champignon de Paris",
+          "language": "fra"
+        },
+        {
+          "vernacularName": "Zweisporiger Champignon",
+          "language": "deu"
+        },
+        {
+          "vernacularName": "gekweekte champignon",
+          "language": "nld"
+        },
+        {
+          "vernacularName": "Cultivated Mushroom, Field Mushroom",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Cultivated Mushroom",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Gekweekte champignon",
+          "language": "nld"
+        },
+        {
+          "vernacularName": "trädgårdschampinjon",
+          "language": "swe"
+        },
+        {
+          "vernacularName": "skogschampinjon",
+          "language": "swe"
+        },
+        {
+          "vernacularName": "portabello",
+          "language": "swe"
+        },
+        {
+          "vernacularName": "portabella",
+          "language": "swe"
+        },
+        {
+          "vernacularName": "odlad champinjon",
+          "language": "swe"
+        },
+        {
+          "vernacularName": "crème de Paris",
+          "language": "swe"
+        },
+        {
+          "vernacularName": "crimini",
+          "language": "swe"
+        },
+        {
+          "vernacularName": "brun trädgårdschampinjon",
+          "language": "swe"
+        },
+        {
+          "vernacularName": "dyrket sjampinjong",
+          "language": "nob"
+        },
+        {
+          "vernacularName": "dyrka sjampinjong",
+          "language": "nno"
+        },
+        {
+          "vernacularName": "Gekweekte champignon",
+          "language": "nld"
+        },
+        {
+          "vernacularName": "viljelyherkkusieni",
+          "language": "fin"
+        },
+        {
+          "vernacularName": "Cultivated Mushroom",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Zweisporiger Champignon",
+          "language": "deu"
+        },
+        {
+          "vernacularName": "Madarch Meithrin",
+          "language": "cym"
+        },
+        {
+          "vernacularName": "dyrket sjampinjong",
+          "language": "nob"
+        },
+        {
+          "vernacularName": "dyrka sjampinjong",
+          "language": "nno"
+        },
+        {
+          "vernacularName": "seta de París, champiñón cultivado",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "franzes perretxico",
+          "language": "eus"
+        },
+        {
+          "vernacularName": "camperol cultivat",
+          "language": "cat"
+        },
+        {
+          "vernacularName": "xampinyó",
+          "language": "cat"
+        },
+        {
+          "vernacularName": "Cultivated Mushroom",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Madarch Meithrin",
+          "language": "cym"
+        },
+        {
+          "vernacularName": "trädgårdschampinjon",
+          "language": "swe"
+        },
+        {
+          "vernacularName": "skogschampinjon",
+          "language": "swe"
+        },
+        {
+          "vernacularName": "portabello",
+          "language": "swe"
+        },
+        {
+          "vernacularName": "portabella",
+          "language": "swe"
+        },
+        {
+          "vernacularName": "odlad champinjon",
+          "language": "swe"
+        },
+        {
+          "vernacularName": "crème de Paris",
+          "language": "swe"
+        },
+        {
+          "vernacularName": "crimini",
+          "language": "swe"
+        },
+        {
+          "vernacularName": "brun trädgårdschampinjon",
+          "language": "swe"
+        },
+        {
+          "vernacularName": "viljelyherkkusieni",
+          "language": "fin"
+        }
+      ],
+      "synonym": false,
+      "higherClassificationMap": {
+        "5": "Fungi",
+        "34": "Basidiomycota",
+        "186": "Agaricomycetes",
+        "1499": "Agaricales",
+        "4170": "Agaricaceae",
+        "2518646": "Agaricus"
+      },
+      "class": "Agaricomycetes"
+    },
+    {
+      "key": 2526530,
+      "nameKey": 8933197,
+      "datasetKey": "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+      "constituentKey": "7ddf754f-d193-4cc9-b351-99906754a03b",
+      "nubKey": 2526530,
+      "parentKey": 2518610,
+      "parent": "Pleurotus",
+      "basionymKey": 2526543,
+      "basionym": "Agaricus ostreatus Jacq.",
+      "kingdom": "Fungi",
+      "phylum": "Basidiomycota",
+      "order": "Agaricales",
+      "family": "Pleurotaceae",
+      "genus": "Pleurotus",
+      "species": "Pleurotus ostreatus",
+      "kingdomKey": 5,
+      "phylumKey": 34,
+      "classKey": 186,
+      "orderKey": 1499,
+      "familyKey": 4183,
+      "genusKey": 2518610,
+      "speciesKey": 2526530,
+      "scientificName": "Pleurotus ostreatus (Jacq.) P.Kumm.",
+      "canonicalName": "Pleurotus ostreatus",
+      "authorship": "(Jacq.) P.Kumm.",
+      "publishedIn": "(1871). Führ. Pilzk. (Zerbst): 104.",
+      "nameType": "SCIENTIFIC",
+      "taxonomicStatus": "ACCEPTED",
+      "rank": "SPECIES",
+      "origin": "SOURCE",
+      "numDescendants": 33,
+      "numOccurrences": 0,
+      "taxonID": "gbif:2526530",
+      "extinct": false,
+      "habitats": [
+        "TERRESTRIAL"
+      ],
+      "nomenclaturalStatus": [],
+      "threatStatuses": [
+        "LEAST_CONCERN",
+        "LEAST_CONCERN",
+        "LEAST_CONCERN"
+      ],
+      "descriptions": [
+        {
+          "description": "Tronco en descomposición"
+        }
+      ],
+      "vernacularNames": [
+        {
+          "vernacularName": "Oyster Mushroom",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Pleurote en huître",
+          "language": "fra"
+        },
+        {
+          "vernacularName": "Oyster Mushroom",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Austernseitling",
+          "language": "deu"
+        },
+        {
+          "vernacularName": "gewone oesterzwam",
+          "language": "nld"
+        },
+        {
+          "vernacularName": "Oyster Mushroom",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Gewone oesterzwam",
+          "language": "nld"
+        },
+        {
+          "vernacularName": "平菇",
+          "language": "zho"
+        },
+        {
+          "vernacularName": "Плеврот черепичастий",
+          "language": "ukr"
+        },
+        {
+          "vernacularName": "Гливичка звичайна",
+          "language": "ukr"
+        },
+        {
+          "vernacularName": "Глива черепичаста",
+          "language": "ukr"
+        },
+        {
+          "vernacularName": "Глива звичайна",
+          "language": "ukr"
+        },
+        {
+          "vernacularName": "istiridye mantarı",
+          "language": "tur"
+        },
+        {
+          "vernacularName": "பரல் கிளிஞ்சல் காளான்",
+          "language": "tam"
+        },
+        {
+          "vernacularName": "ostronmussling",
+          "language": "swe"
+        },
+        {
+          "vernacularName": "Буковача",
+          "language": "srp"
+        },
+        {
+          "vernacularName": "Bukovača",
+          "language": "srp"
+        },
+        {
+          "vernacularName": "Këpurdha perlë",
+          "language": "sqi"
+        },
+        {
+          "vernacularName": "Orejas de cazahuate",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "Hongo del cazahuate",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "Hongo blanco",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "Gírgola Común",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "Bukov ostrigar",
+          "language": "slv"
+        },
+        {
+          "vernacularName": "Hliva ustricovitá",
+          "language": "slk"
+        },
+        {
+          "vernacularName": "Вёшенка обыкновенная",
+          "language": "rus"
+        },
+        {
+          "vernacularName": "Вешенка устричная",
+          "language": "rus"
+        },
+        {
+          "vernacularName": "Repolga",
+          "language": "por"
+        },
+        {
+          "vernacularName": "Boczniak ostrygowaty",
+          "language": "pol"
+        },
+        {
+          "vernacularName": "Mitgo‐pikwajish",
+          "language": "oji"
+        },
+        {
+          "vernacularName": "blågrå østerssopp",
+          "language": "nob"
+        },
+        {
+          "vernacularName": "Gewone oesterzwam",
+          "language": "nld"
+        },
+        {
+          "vernacularName": "cendawan tiram",
+          "language": "msa"
+        },
+        {
+          "vernacularName": "Echte Muschelpilz",
+          "language": "ltz"
+        },
+        {
+          "vernacularName": "Gluosninė kreivabudė",
+          "language": "lit"
+        },
+        {
+          "vernacularName": "Austeru sānause",
+          "language": "lav"
+        },
+        {
+          "vernacularName": "느타리버섯",
+          "language": "kor"
+        },
+        {
+          "vernacularName": "ヒラタケ",
+          "language": "jpn"
+        },
+        {
+          "vernacularName": "Késői laskagomba",
+          "language": "hun"
+        },
+        {
+          "vernacularName": "Kései laskagomba",
+          "language": "hun"
+        },
+        {
+          "vernacularName": "אוזנית הצדף",
+          "language": "heb"
+        },
+        {
+          "vernacularName": "Pleurote en huître",
+          "language": "fra"
+        },
+        {
+          "vernacularName": "Pleurote en forme d'huître",
+          "language": "fra"
+        },
+        {
+          "vernacularName": "osterivinokas",
+          "language": "fin"
+        },
+        {
+          "vernacularName": "austerservik",
+          "language": "est"
+        },
+        {
+          "vernacularName": "Oyster Mushroom",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Austernseitling",
+          "language": "deu"
+        },
+        {
+          "vernacularName": "Austernpilz",
+          "language": "deu"
+        },
+        {
+          "vernacularName": "Almindelig østershat",
+          "language": "dan"
+        },
+        {
+          "vernacularName": "Wystrysen y Coed",
+          "language": "cym"
+        },
+        {
+          "vernacularName": "hlíva ústřičná",
+          "language": "ces"
+        },
+        {
+          "vernacularName": "Orellana",
+          "language": "cat"
+        },
+        {
+          "vernacularName": "Вешанка звычайная",
+          "language": "bel"
+        },
+        {
+          "vernacularName": "blågrå østerssopp",
+          "language": "nno"
+        },
+        {
+          "vernacularName": "blågrå østerssopp",
+          "language": "nob"
+        },
+        {
+          "vernacularName": "belarri landua",
+          "language": "eus"
+        },
+        {
+          "vernacularName": "Orellana, seta de tocones, pleuroto de tocones",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "orellana",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "belarri landu",
+          "language": "eus"
+        },
+        {
+          "vernacularName": "ostra-belarri landua",
+          "language": "eus"
+        },
+        {
+          "vernacularName": "orellana, pleuroto en forma de ostra, pleuroto de madera",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "pleuroto en forma de concha, orellana",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "oreja blanca",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "belarri landu",
+          "language": "eus"
+        },
+        {
+          "vernacularName": "parásito facultativo",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "gírgola",
+          "language": "cat"
+        },
+        {
+          "vernacularName": "clopisons",
+          "language": "cat"
+        },
+        {
+          "vernacularName": "orellana",
+          "language": "cat"
+        },
+        {
+          "vernacularName": "falsa seta de cardo de la madera",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "pleurotoncoideo",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "pleurotoncoideo",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "falsa seta de cardo de la madera",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "cabeza de fraile",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "orellana",
+          "language": "cat"
+        },
+        {
+          "vernacularName": "pleuroto en forma de ostra",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "seta de mano",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "orellanas de polls",
+          "language": "cat"
+        },
+        {
+          "vernacularName": "orellas de poll",
+          "language": "cat"
+        },
+        {
+          "vernacularName": "orellana",
+          "language": "cat"
+        },
+        {
+          "vernacularName": "pleuroto ostreado",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "pleuroto en forma de ostra",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "orellana",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "Oyster Mushroom",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Wystrysen y Coed",
+          "language": "cym"
+        },
+        {
+          "vernacularName": "ostronmussling",
+          "language": "swe"
+        },
+        {
+          "vernacularName": "osterivinokas",
+          "language": "fin"
+        }
+      ],
+      "synonym": false,
+      "higherClassificationMap": {
+        "5": "Fungi",
+        "34": "Basidiomycota",
+        "186": "Agaricomycetes",
+        "1499": "Agaricales",
+        "4183": "Pleurotaceae",
+        "2518610": "Pleurotus"
+      },
+      "class": "Agaricomycetes"
+    },
+    {
+      "key": 2548311,
+      "nameKey": 11360607,
+      "datasetKey": "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+      "constituentKey": "7ddf754f-d193-4cc9-b351-99906754a03b",
+      "nubKey": 2548311,
+      "parentKey": 2519084,
+      "parent": "Trametes",
+      "kingdom": "Fungi",
+      "phylum": "Basidiomycota",
+      "order": "Polyporales",
+      "family": "Polyporaceae",
+      "genus": "Trametes",
+      "species": "Trametes versicolor",
+      "kingdomKey": 5,
+      "phylumKey": 34,
+      "classKey": 186,
+      "orderKey": 1145,
+      "familyKey": 3286,
+      "genusKey": 2519084,
+      "speciesKey": 2548311,
+      "scientificName": "Trametes versicolor (L.) Lloyd",
+      "canonicalName": "Trametes versicolor",
+      "authorship": "(L.) Lloyd",
+      "publishedIn": "(1921). Mycol. Notes (Cincinnati) 65: 1045 (’1920′).",
+      "nameType": "SCIENTIFIC",
+      "taxonomicStatus": "ACCEPTED",
+      "rank": "SPECIES",
+      "origin": "SOURCE",
+      "numDescendants": 15,
+      "numOccurrences": 0,
+      "taxonID": "gbif:2548311",
+      "extinct": false,
+      "habitats": [
+        "TERRESTRIAL"
+      ],
+      "nomenclaturalStatus": [],
+      "threatStatuses": [
+        "LEAST_CONCERN",
+        "LEAST_CONCERN",
+        "LEAST_CONCERN"
+      ],
+      "descriptions": [
+        {
+          "description": "White rot in a broad-leaved forest. Ailaoshan National Nature Reserve, Heping Town, Zhenyuan County, Puer, Yunnan Province, China, on a fallen trunk of angiosperm, 11 January 2018, CLZhao 4857; Jinshan Primitive Forest Park, Zhenyuan County, Puer, Yunnan Province, China, on a trunk of angiosperm, 12 January 2018, CLZhao 5008, CLZhao 5010, CLZhao 5019, CLZhao 5039; Jinshan Primitive Forest Park, Xinping County, Yuxi, Yunnan Province, China, on a fallen trunk of angiosperm, 2 January 2019, CLZhao 9133, CLZhao 9179, CLZhao 9153."
+        },
+        {
+          "description": "Sobre madera muerta"
+        },
+        {
+          "description": "Sobre madera muerta"
+        },
+        {
+          "description": "1800"
+        },
+        {
+          "description": "1800"
+        },
+        {
+          "description": "1800"
+        },
+        {
+          "description": "Type not designated."
+        },
+        {
+          "description": "Original material: none traced."
+        },
+        {
+          "description": "\" Habitat ad truncos Arborum antiquarum. \" RCN: 8471."
+        },
+        {
+          "description": "Specimen Examined: BRAZIL, MARANHÃO, Carolina, Pedra Caída, 7 ° 02 ’ 28.9 ” S, 47 ° 26 ’ 34.7 ” W, 21. IX. 2018, M. Palacio 355 (ICN 202071)."
+        },
+        {
+          "description": "Ecology & Distribution: Growing on deciduous wood. Worldwide distribution (Ryvarden 2016). In Brazil, it is recorded for the states of Amazonas, Bahia, Pará, Paraná, Rio Grande do Sul, Santa Catarina and São Paulo (Flora do Brasil 2020), and for the Cerrado region of Mato Grosso do Sul (Bononi et al. 2017). New record for the state of Maranhão."
+        },
+        {
+          "description": "Remarks: One of the most common wood-rotting polypore species in the American continent, commonly known as “ turkey tail mushroom ”. It is recognizable by contrasted concentric zones in the pileus, which vary in shades of brown and gray (Ryvarden 2016)."
+        }
+      ],
+      "vernacularNames": [
+        {
+          "vernacularName": "Turkeytail",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Turkey-tail",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Turkeytail",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Tramète versicolore, Tramète à couleur changeante",
+          "language": "fra"
+        },
+        {
+          "vernacularName": "Turkeytail",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Turkey-tail",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Turkeytail",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Turkey-tail",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Broget læderporesvamp",
+          "language": "dan"
+        },
+        {
+          "vernacularName": "sidenticka",
+          "language": "swe"
+        },
+        {
+          "vernacularName": "silkekjuke",
+          "language": "nob"
+        },
+        {
+          "vernacularName": "Turkeytail",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Broget læderporesvamp",
+          "language": "dan"
+        },
+        {
+          "vernacularName": "Cwnffon Twrci",
+          "language": "cym"
+        },
+        {
+          "vernacularName": "silkekjuke",
+          "language": "nno"
+        },
+        {
+          "vernacularName": "silkekjuke",
+          "language": "nob"
+        },
+        {
+          "vernacularName": "Yesquero delores",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "yesquero multicolor",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "yesquero multicolor",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "yésquero multicolor",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "Turkeytail",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Cwnffon Twrci",
+          "language": "cym"
+        },
+        {
+          "vernacularName": "sidenticka",
+          "language": "swe"
+        },
+        {
+          "vernacularName": "sprangelsopp",
+          "language": "nor"
+        },
+        {
+          "vernacularName": "spragelpils",
+          "language": "nor"
+        },
+        {
+          "vernacularName": "buntsopp",
+          "language": "nor"
+        }
+      ],
+      "synonym": false,
+      "higherClassificationMap": {
+        "5": "Fungi",
+        "34": "Basidiomycota",
+        "186": "Agaricomycetes",
+        "1145": "Polyporales",
+        "3286": "Polyporaceae",
+        "2519084": "Trametes"
+      },
+      "class": "Agaricomycetes"
+    },
+    {
+      "key": 2549730,
+      "nameKey": 4595878,
+      "datasetKey": "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+      "constituentKey": "7ddf754f-d193-4cc9-b351-99906754a03b",
+      "nubKey": 2549730,
+      "parentKey": 2519220,
+      "parent": "Ganoderma",
+      "basionymKey": 5954458,
+      "basionym": "Boletus lucidus Curtis",
+      "kingdom": "Fungi",
+      "phylum": "Basidiomycota",
+      "order": "Polyporales",
+      "family": "Polyporaceae",
+      "genus": "Ganoderma",
+      "species": "Ganoderma lucidum",
+      "kingdomKey": 5,
+      "phylumKey": 34,
+      "classKey": 186,
+      "orderKey": 1145,
+      "familyKey": 3286,
+      "genusKey": 2519220,
+      "speciesKey": 2549730,
+      "scientificName": "Ganoderma lucidum (Curtis) P.Karst.",
+      "canonicalName": "Ganoderma lucidum",
+      "authorship": "(Curtis) P.Karst.",
+      "publishedIn": "(1881). Revue mycol., Toulouse 3(no. 9): 17.",
+      "nameType": "SCIENTIFIC",
+      "taxonomicStatus": "ACCEPTED",
+      "rank": "SPECIES",
+      "origin": "SOURCE",
+      "numDescendants": 21,
+      "numOccurrences": 0,
+      "taxonID": "gbif:2549730",
+      "extinct": false,
+      "habitats": [
+        "TERRESTRIAL"
+      ],
+      "nomenclaturalStatus": [],
+      "threatStatuses": [
+        "LEAST_CONCERN",
+        "LEAST_CONCERN",
+        "LEAST_CONCERN"
+      ],
+      "descriptions": [
+        {
+          "description": "Sobre troncos muertos o vivos en lugares soleados"
+        },
+        {
+          "description": "Gregario a cespitoso"
+        },
+        {
+          "description": "Gregario a cespitoso"
+        },
+        {
+          "description": "Gregario a cespitoso"
+        },
+        {
+          "description": "Gregario a cespitoso"
+        },
+        {
+          "description": "Bosque tropical lluvioso"
+        },
+        {
+          "description": "Bosque tropical lluvioso"
+        },
+        {
+          "description": "Bosque tropical lluvioso"
+        },
+        {
+          "description": "Bosque tropical lluvioso"
+        },
+        {
+          "description": "Bosque tropical lluvioso"
+        },
+        {
+          "description": "500-1000"
+        },
+        {
+          "description": "500-1000"
+        },
+        {
+          "description": "500-1000"
+        },
+        {
+          "description": "500-1000"
+        },
+        {
+          "description": "500-1000"
+        },
+        {
+          "description": "G. lucidum is the type species of the genus (Richter et al., 2015) and it belongs to the G. lucidum complex (Zhou et al., 2015). It often colonises old deciduous trees in parks and botanical gardens, but it occurs mainly in forests (Sokół, 2000; Bernicchia, 2005). Basidiocarps of G. lucidum grow mostly on oaks, but also on other trees (Kotlaba, 1984; Tortić, 1985; Sokół, 2000; Karadelev et al., 2008; Papp, Szabó, 2013; Ryvarden, Melo, 2014). In Europe, it grows on 24 woody plants genera (Bernicchia, 2005; Ryvarden, Melo, 2014)."
+        },
+        {
+          "description": "The sequences of CERSs from S. cerevisiae, LAG 1 and LAC 1 (National Center for Biotechnology Information (NCBI), GenBank accession number: NP _ 011860.1 and NP _ 012917.3), were used for a homology search of the genome database of G. lucidum strain 2,601,251 (NCBI taxid: 1,077,286) (Chen et al., 2012). Three genes (lag 1, lag 2 and lag 3 with the GenBank accession numbers MH 145349, MH 145350 and MH 145351, respectively) were identified as genes encoding CERS homologues. Using the primers described in Supplementary Table S 1, the three lag coding sequences were polymerase chain reaction (PCR) amplified from complementary DNA (cDNA) and sequenced. From comparisons between the cDNA and genomic sequences, the ORFs (open reading frames) and exon / intron positions of three lag s in G. lucidum were inferred. The conserved domains were identified by SMART (http: // smart. emblheidelberg. de) (Letunic et al., 2009). The multiple sequence alignments were obtained with T-COFFEE (http: // www. tcoffee. org) (Taly et al., 2011). The phylogenetic tree was constructed through the application of MEGA 6.0 program (Tamura et al., 2013) and the neighbour-joining method with 1000 bootstrap replicates was applied to infer evolutionary history."
+        },
+        {
+          "description": "On the basis of evidence of ceramide synthases in other fungi, we performed a bioinformatic search for putative ceramide synthases present in G. lucidum. Our analysis revealed that there are three putative ceramide synthases in G. lucidum by homologue alignment by comparing to the proteins from other fungi. They are referred in this study as LAG 1, LAG 2 and LAG 3, respectively. The LAG 1, LAG 2 and LAG 3 had significant homology to other ceramide synthase from Basidiomycetes including Lentinus tigrinus, Armillaria gallica, Cryptococcus depauperatus, Tsuchiyaea wing fi eldii, Cryptococcus gattii and Cryptococcus neoformans. The genomic DNA sequence of the lag 1 gene is 1385 bp and is interrupted by three introns, whereas the spliced transcript of lag 1 is 1089 bp and encodes a protein containing 362 amino acids. The genomic DNA sequence of the lag 2 gene is composed of 1844 bp gene and contains nine introns, whereas the 1317 bp spliced transcript of lag 2 encodes a protein consisting of 438 amino acids. The cDNA of lag 3 contains a spliced transcript of 1431 bp encoding 476 amino acids, whereas the lag 3 genomic DNA sequence is 2083 bp and contains eleven introns. We investigated the divergence of the three CERSs in G. lucidum from other known CERS proteins from animals, plants and fungi over the course of evolution. The entire phylogenetic tree can be divided into three major groups (Fig. 2). Interestingly, the LAG 1 protein from G. lucidum, the Cer 1 proteins from Basidiomycetes and the Lac 1 (or Bar 1 p) proteins from Ascomycetes are clustered together. The LAG 2 and LAG 3 proteins from G. lucidum, the Cer 2 and Cer 3 proteins from Basidiomycetes and the Lag 1 proteins in Ascomycetes grouped into a separate cluster. In addition, LAG 1, LAG 2 and LAG 3 from G. lucidum exhibited a high degree of sequence identity with other ceramide synthases from Basidiomycetes including Lentinus tigrinus, Armillaria gallica, Cryptococcus depauperatus, Tsuchiyaea wing fi eldii, Cryptococcus gattii and Cryptococcus neoformans. LAG 2 and LAG 3 shared high identity with each other (displayed 66.06 % identity), as well as to ceramide synthases (Cer 2 and Cer 3) of L. tigrinus (displayed 44.10 % identity), A. gallica (displayed 57.33 % identity), C. depauperatus (displayed 49.88 % identity), T. wing fi eldii (displayed 49.76 % identity), C. gattii (displayed 66.19 % identity) and C. neoformans (displayed 65.70 % identity). The LAG 1 amino acid sequence is greatly diverged from LAG 2 and LAG 3 (displayed 23.93 % and 21.34 % identity, respectively) in G. lucidum and showed 19.14 – 36.98 % identity to the proteins denoted as LAG 1 or Cer 1 in L. tigrinus (36.98 %), A. gallica (26.88 %), C. neoformans (35.84 %), C. depauperatus (33.08 %), T. wing fi eldii (32.59 %) and C. gattii (36.90 %), Lac 1 in Blastomyces parvus (20.11 %), Emmonsia crescens (19.14 %), Yarrowia lipolytica (30.26 %), Wickerhamomyces ciferrii (26.12 %), Kluyveromyces marxianus (27.98 %), Candida albicans (24.25 %) and Kluyveromyces lactis (32.29 %), and Bar 1 p in Pichia pastoris (27.98 %). The conserved domain analysis for the CERS proteins was performed using the SMART database (http: // smart. emblheidelberg. de). The domain analysis revealed that the three predicted G. lucidum CERSs contain one Tram-Lag-CLN 8 (TLC) domain. The TLC domains of LAG 2 and LAG 3 are highly similar to each other and are different from that of LAG 1. In addition, LAG 2 and LAG 3 have two transmembrane (TM) domains, whereas LAG 1 has only one TM domain (Supplementary Fig. S 1). 2.2. Construction of G. lucidum lag-silenced strains To investigate the function of CERS in physiological processes, we constructed lag 1, lag 2 and lag 3 single-silenced mutants and lag 2 / lag 3 double-silenced mutants as previously described by using an established dual-promoter system (Supplementary Fig. S 2), which carries the hygromycin B (Hyg) resistance gene as a selectable marker. Real-time PCR analysis was used to examine the expression of the lag genes and confirm silencing in the transformants. The results showed that the expression of lag was down-regulated greater than 50 % (P <0.01) in all lag - silenced strains compared to that in WT strains. The silenced strains lag 1 - (LAG 1 i- 7 and LAG 1 i- 8), lag 2 - (LAG 2 i- 1 and LAG 2 i- 7), lag 3 - (LAG 3 i- 22 and LAG 3 i- 26) and lag 2 / lag 3 - (LAG 23 i- 4 and LAG 23 i- 5) strains were selected for further analysis (Supplementary Fig. S 3). 2.3. Ceramide synthases LAG 2 and LAG 3 are required for G. lucidum growth To explore whether CERS impact the growth of G. lucidum, the SiControl and WT strains and the individual lag - and the lag 2 / lag 3 double-silenced transformants were cultivated on solid CYM for 5 days to evaluate the resulting colony diameters. The colony diameters of the individual lag - silenced transformants LAG 1 i- 7, LAG 1 i- 8, LAG 2 i- 1, LAG 2 i- 7, LAG 3 i- 22 and LAG 3 i- 26 were not significantly different (P> 0.05) from those of the WT and SiControl strains (Fig. 3 and Supplementary Fig. S 4 A). For the l ag 2 / lag 3 double-silenced transformants LAG 23 i- 4 and LAG 23 i- 5, growth was decreased by approximately 22 % and 45 % (P <0.01), respectively, compared with that observed for the SiControl and WT strains. We further evaluated the effects of the loss of the lag genes on G. lucidum growth by analysing the biomass of the strains. Compared to the SiControl and WT strains, the dry weights of the individual lag - silenced transformants were not significantly different (P> 0.05); however, the dry weights were significantly (P <0.01) decreased by approximately 44 and 49 %, respectively, in the LAG 23 i- 4 and LAG 23 i- 5 strains compared with the SiControl and WT strains (Supplementary Fig. S 4 B). These results indicated that lag 2 and lag 3 are required and are functionally redundant with respect to the observed growth phenotype."
+        },
+        {
+          "description": "In general, a CYP requires an NADPH-CYP reductase for its function. In S. cerevisiae, the NADPH-dependent CYP reductase, NCP 1, was characterized as a working partner of endogenous or heterogeneous CYPs (Hirosue et al., 2011; Ide et al., 2012; Venkateswarlu et al., 1997). An ORF annotated as an NADPH-dependent CYP reductase, which shares a 36.62 % amino acid sequence similarity with NCP 1, was cloned from G. lucidum cDNA and named GLCPR. GLCPR was then introduced into a yeast chassis to replace the full-length ORF of NCP 1 and the recombinant GLCPR 113 - 3 C strain was able to grow normally in YPD medium without the addition of ergosterol. It was demonstrated that the heterogenous GLCPR functioned in cooperation with endogenous CYPs in yeast to produce ergosterol, which is essential for yeast growth. Moreover, the pESC-dTrp-GLCPR-CYP 512 U 6 expression vector containing the CYP 512 U 6 and GLCPR ORFs under the control of the GAL 1 and GAL 10 promoters respectively, was constructed in GLCPR 113 - 3 C, and the resulting strain ZYGL 02 catalyzed the conversion of ganoderic acid DM to 2 (Fig. 5 and Table 1), indicating that the GLCPR functions in cooperation with CYPs such as CYP 512 U 6, in G. lucidum."
+        }
+      ],
+      "vernacularNames": [
+        {
+          "vernacularName": "Lacquered Bracket",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Lacquered Bracket",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Ganoderme luisant",
+          "language": "fra"
+        },
+        {
+          "vernacularName": "Glänzender Lackporling",
+          "language": "deu"
+        },
+        {
+          "vernacularName": "gesteelde lakzwam",
+          "language": "nld"
+        },
+        {
+          "vernacularName": "Lacquered Bracket",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Skinnende lakporesvamp",
+          "language": "dan"
+        },
+        {
+          "vernacularName": "Gesteelde lakzwam",
+          "language": "nld"
+        },
+        {
+          "vernacularName": "靈芝",
+          "language": "zho"
+        },
+        {
+          "vernacularName": "灵芝 / 靈芝",
+          "language": "zho"
+        },
+        {
+          "vernacularName": "Nấm linh chi",
+          "language": "vie"
+        },
+        {
+          "vernacularName": "Трутовик лакований",
+          "language": "ukr"
+        },
+        {
+          "vernacularName": "Ганодерма блискуча (трутовик лакований)",
+          "language": "ukr"
+        },
+        {
+          "vernacularName": "Reishi Mantarı",
+          "language": "tur"
+        },
+        {
+          "vernacularName": "เห็ดหลินจือ",
+          "language": "tha"
+        },
+        {
+          "vernacularName": "கனோடெர்மா",
+          "language": "tam"
+        },
+        {
+          "vernacularName": "lackticka",
+          "language": "swe"
+        },
+        {
+          "vernacularName": "Храстова сјајница",
+          "language": "srp"
+        },
+        {
+          "vernacularName": "Reishi",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "svetlikava pološčenka",
+          "language": "slv"
+        },
+        {
+          "vernacularName": "Lesklokôrovka obyčajná",
+          "language": "slk"
+        },
+        {
+          "vernacularName": "Трутовик лакированный",
+          "language": "rus"
+        },
+        {
+          "vernacularName": "Cogumelo-da-imortalidade",
+          "language": "por"
+        },
+        {
+          "vernacularName": "Lakownica żółtawa",
+          "language": "pol"
+        },
+        {
+          "vernacularName": "Lakownica lśniąca",
+          "language": "pol"
+        },
+        {
+          "vernacularName": "Lakk-kjuke",
+          "language": "nor"
+        },
+        {
+          "vernacularName": "lakkjuke",
+          "language": "nob"
+        },
+        {
+          "vernacularName": "Gesteelde lakzwam",
+          "language": "nld"
+        },
+        {
+          "vernacularName": "လင်ဇီးမှို",
+          "language": "mya"
+        },
+        {
+          "vernacularName": "ഗാനോഡര്മ ലൂസിഡം",
+          "language": "mal"
+        },
+        {
+          "vernacularName": "Gelackte Stillporling",
+          "language": "ltz"
+        },
+        {
+          "vernacularName": "Tikrinis Blizgutis",
+          "language": "lit"
+        },
+        {
+          "vernacularName": "Lakas plakanpiepe",
+          "language": "lav"
+        },
+        {
+          "vernacularName": "영지버섯",
+          "language": "kor"
+        },
+        {
+          "vernacularName": "영지",
+          "language": "kor"
+        },
+        {
+          "vernacularName": "霊芝",
+          "language": "jpn"
+        },
+        {
+          "vernacularName": "マンネンタケ",
+          "language": "jpn"
+        },
+        {
+          "vernacularName": "Pecsétviaszgomba",
+          "language": "hun"
+        },
+        {
+          "vernacularName": "Hrastova sjajnica",
+          "language": "hrv"
+        },
+        {
+          "vernacularName": "בהוקית מבריקה",
+          "language": "heb"
+        },
+        {
+          "vernacularName": "Ganoderme luisant",
+          "language": "fra"
+        },
+        {
+          "vernacularName": "lakkakääpä",
+          "language": "fin"
+        },
+        {
+          "vernacularName": "Sigelvaksa fungo",
+          "language": "epo"
+        },
+        {
+          "vernacularName": "Lacquered Bracket",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Glänzender Lackporling",
+          "language": "deu"
+        },
+        {
+          "vernacularName": "Skinnende lakporesvamp",
+          "language": "dan"
+        },
+        {
+          "vernacularName": "Ysgwydd Gloyw",
+          "language": "cym"
+        },
+        {
+          "vernacularName": "lesklokorka lesklá",
+          "language": "ces"
+        },
+        {
+          "vernacularName": "Leskokorka lesklá",
+          "language": "ces"
+        },
+        {
+          "vernacularName": "pipa",
+          "language": "cat"
+        },
+        {
+          "vernacularName": "Oranjebruin-vernisswam",
+          "language": "afr"
+        },
+        {
+          "vernacularName": "lakkjuke",
+          "language": "nno"
+        },
+        {
+          "vernacularName": "lakkjuke",
+          "language": "nob"
+        },
+        {
+          "vernacularName": "pipa",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "pipes, paelles",
+          "language": "cat"
+        },
+        {
+          "vernacularName": "pipa",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "paella",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "paella",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "pipa",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "seta pipa",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "políporo lacado",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "pipa, paella",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "ardagai pipa",
+          "language": "eus"
+        },
+        {
+          "vernacularName": "pipa",
+          "language": "cat"
+        },
+        {
+          "vernacularName": "ganoderma brillante, pipa, paella",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "seta pipa",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "ardagai pipa",
+          "language": "eus"
+        },
+        {
+          "vernacularName": "ardagai pipa",
+          "language": "eus"
+        },
+        {
+          "vernacularName": "paella",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "pipa",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "pipas, paellas",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "pipa",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "paella, pipa, yesquero brillante",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "ardagai pipa",
+          "language": "eus"
+        },
+        {
+          "vernacularName": "Ганодерма блискуча",
+          "language": "ukr"
+        },
+        {
+          "vernacularName": "Lacquered Bracket",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Ysgwydd Gloyw",
+          "language": "cym"
+        },
+        {
+          "vernacularName": "lackticka",
+          "language": "swe"
+        },
+        {
+          "vernacularName": "lakkakääpä",
+          "language": "fin"
+        }
+      ],
+      "synonym": false,
+      "higherClassificationMap": {
+        "5": "Fungi",
+        "34": "Basidiomycota",
+        "186": "Agaricomycetes",
+        "1145": "Polyporales",
+        "3286": "Polyporaceae",
+        "2519220": "Ganoderma"
+      },
+      "class": "Agaricomycetes"
+    },
+    {
+      "key": 5248629,
+      "nameKey": 5946266,
+      "datasetKey": "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+      "constituentKey": "7ddf754f-d193-4cc9-b351-99906754a03b",
+      "nubKey": 5248629,
+      "parentKey": 2532156,
+      "parent": "Lactarius",
+      "basionymKey": 2550903,
+      "basionym": "Agaricus deliciosus L.",
+      "kingdom": "Fungi",
+      "phylum": "Basidiomycota",
+      "order": "Russulales",
+      "family": "Russulaceae",
+      "genus": "Lactarius",
+      "species": "Lactarius deliciosus",
+      "kingdomKey": 5,
+      "phylumKey": 34,
+      "classKey": 186,
+      "orderKey": 1144,
+      "familyKey": 7609,
+      "genusKey": 2532156,
+      "speciesKey": 5248629,
+      "scientificName": "Lactarius deliciosus (L.) Gray",
+      "canonicalName": "Lactarius deliciosus",
+      "authorship": "(L.) Gray",
+      "publishedIn": "(1821). Nat. Arr. Brit. Pl. (London) 1: 624.",
+      "nameType": "SCIENTIFIC",
+      "taxonomicStatus": "ACCEPTED",
+      "rank": "SPECIES",
+      "origin": "SOURCE",
+      "numDescendants": 12,
+      "numOccurrences": 0,
+      "taxonID": "gbif:5248629",
+      "extinct": false,
+      "habitats": [
+        "TERRESTRIAL"
+      ],
+      "nomenclaturalStatus": [],
+      "threatStatuses": [
+        "DATA_DEFICIENT",
+        "LEAST_CONCERN"
+      ],
+      "descriptions": [
+        {
+          "description": "Type not designated."
+        },
+        {
+          "description": "Original material: none traced."
+        },
+        {
+          "description": "\" Habitat in Montibus, sterilibus, sylvosis. \" RCN: 8430."
+        },
+        {
+          "description": "Specimens examined. U. S. A. MONTANA: Carbon County, Hellroaring Plateau, Hellroaring Creek, among Arctostaphylos uva-ursi, 9 Aug 2015, EB 107 - 15 (MONT); Gallatin County, Gallatin Range, East Fork Hyalite Creek, under Picea engelmannii, 24 Aug 2014, EB 0063 - 14 (MONT); Madison County, Madison Range, Taylor Creek, under Abies lasiocarpa, Picea engelmannii and Pinus contorta, 25 July 2015, EB 089 - 15 (MONT)."
+        },
+        {
+          "description": "Discussion. While section Deliciosi (Fr.: Fr.) Redeuilh, Verbeken & Walleyn has been resolved as monophyletic (Nuytinck et al. 2007) (Figure 2 B), the complex of species surrounding Lactarius deliciosus (L.) Gray in North America is poorly resolved. Using molecular techniques, Nuytinck et al. (2007) showed that Lactarius deliciosus and Lactarius deterrimus Groeger likely do not occur in North America. The collections of the North American varieties of Lactarius deliciosus described by Hesler and Smith (1979) that they analyzed formed a clade separate from the European Lactarius deliciosus and Lactarius deterrimus, but were poorly resolved, with the exception of Lactarius deliciosus v. areolatus A. H. Smith, which formed a monophyletic group. For descriptions of North American members of this group see Hesler and Smith (1979) and Methven (1997). Lactarius deliciosus and all of its North American varieties, as well as Lactarius deterrimus have been previously reported from the GYE (McKnight 1982, Mohatt et al. 2008, Cripps 2011, Cripps and Antibus 2011). Specimens from the GYE included in the phylogenetic analysis in the present study fall in the poorly resolved North American \" Lactarius deliciosus \" group including \" Lactarius deliciosus v. deterrimus \" (Groeger) Hesler & A. H. Sm. and Lactarius deliciosus v. olivaceosordidus Hesler & A. H. Sm. (Figure 2 B). Previous reports of Lactarius thyinos from the GYE (McKnight 1982), a northeastern North American member of sect. Deliciosi that occurs in Thuja bogs may refer to the \" Lactarius deliciosus \" group described here. Overall, this group is in need of revision."
+        },
+        {
+          "description": "Description. Pileus 30 - 100 mm in diameter, convex to broadly infundibuliform, smooth to faintly areolate, viscid to dry, + / - faintly zonate, pale cream to pale yellow to carrot orange, often with green stains especially in age; margin striate when wet, incurved when young and becoming straight. Lamellae adnate to subdecurrent, crowded to subdistant, creamy orange to carrot orange, discoloring orange to reddish and eventally green where damaged. Stipe 30 - 70 x 5 - 25 mm, equal to clavate to tapering toward the base, viscid to dry, smooth, creamy orange to carrot orange with a white band toward the apex; discoloring carrot orange to dull reddish and eventually green where damaged, hollow. Context yellowish, immediately staining carrot orange to dull reddish and eventally green. Latex scarce, carrot orange, staining tissue carrot orange to dull reddish and eventually green. Odor mild. Taste mild. Basidiospores 7.5 - 10.5 x 5.5 - 7.5 µm, Q = 1.3 - 1.5, ellipsoid; ornamentation forming a partial reticulum. Pleuromacrocystidia 40 - 55 x 3 - 6 µm, very sparse, subfusiform; apex moniliform. Cheilomacrocystidia 45 - 60 x 4 - 9 µm, scarce to numerous, subfusiform; apex moniliform."
+        }
+      ],
+      "vernacularNames": [
+        {
+          "vernacularName": "Smakelijke melkzwam",
+          "language": "nld"
+        },
+        {
+          "vernacularName": "tallblodriska",
+          "language": "swe"
+        },
+        {
+          "vernacularName": "läcker riska",
+          "language": "swe"
+        },
+        {
+          "vernacularName": "furumatriske",
+          "language": "nob"
+        },
+        {
+          "vernacularName": "Smakelijke melkzwam",
+          "language": "nld"
+        },
+        {
+          "vernacularName": "männynleppärousku",
+          "language": "fin"
+        },
+        {
+          "vernacularName": "Saffron Milkcap",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Saffron Milk-Cap",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Echter Reizker",
+          "language": "deu"
+        },
+        {
+          "vernacularName": "Cap Llaeth Saffrwm",
+          "language": "cym"
+        },
+        {
+          "vernacularName": "furumatriske",
+          "language": "nno"
+        },
+        {
+          "vernacularName": "furumatriske",
+          "language": "nob"
+        },
+        {
+          "vernacularName": "nízcalo, rovellón, seta de cardenillo",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "esne-gorri",
+          "language": "eus"
+        },
+        {
+          "vernacularName": "enilado de ocote",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "pinetell",
+          "language": "cat"
+        },
+        {
+          "vernacularName": "hongo enilado",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "nícalo",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "níscalo",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "esne gorri",
+          "language": "eus"
+        },
+        {
+          "vernacularName": "mízcalo",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "esnegorri",
+          "language": "eus"
+        },
+        {
+          "vernacularName": "seta de cardenillo",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "rovellón",
+          "language": "cat"
+        },
+        {
+          "vernacularName": "nízcalo",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "nizcalo",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "nízcalo",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "níscalo",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "Paracha",
+          "language": "cat"
+        },
+        {
+          "vernacularName": "Pinatell",
+          "language": "cat"
+        },
+        {
+          "vernacularName": "Rubeyolas",
+          "language": "cat"
+        },
+        {
+          "vernacularName": "Rovelló",
+          "language": "cat"
+        },
+        {
+          "vernacularName": "Rovelló",
+          "language": "cat"
+        },
+        {
+          "vernacularName": "Mízcalo",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "Níscalo",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "rovelló",
+          "language": "cat"
+        },
+        {
+          "vernacularName": "esnegorri",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "pinetell",
+          "language": "cat"
+        },
+        {
+          "vernacularName": "míscalo",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "pinetell",
+          "language": "cat"
+        },
+        {
+          "vernacularName": "níscalo",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "mízcalo",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "nízcalo",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "Saffron Milk-Cap",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Saffron Milkcap",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Cap Llaeth Saffrwm",
+          "language": "cym"
+        },
+        {
+          "vernacularName": "tallblodriska",
+          "language": "swe"
+        },
+        {
+          "vernacularName": "läckerriska",
+          "language": "swe"
+        },
+        {
+          "vernacularName": "läcker riska",
+          "language": "swe"
+        },
+        {
+          "vernacularName": "riske",
+          "language": "nor"
+        },
+        {
+          "vernacularName": "riska",
+          "language": "nor"
+        },
+        {
+          "vernacularName": "männynleppärousku",
+          "language": "fin"
+        },
+        {
+          "vernacularName": "Saffron Milkcap",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Saffron Milk-cap",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Saffron Milkcap",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Lactaire délicieuse",
+          "language": "fra"
+        },
+        {
+          "vernacularName": "Echter Reizker",
+          "language": "deu"
+        },
+        {
+          "vernacularName": "smakelijke melkzwam",
+          "language": "nld"
+        },
+        {
+          "vernacularName": "Saffron Milkcap",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Saffron Milk-cap",
+          "language": "eng"
+        }
+      ],
+      "synonym": false,
+      "higherClassificationMap": {
+        "5": "Fungi",
+        "34": "Basidiomycota",
+        "186": "Agaricomycetes",
+        "1144": "Russulales",
+        "7609": "Russulaceae",
+        "2532156": "Lactarius"
+      },
+      "class": "Agaricomycetes"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX `taxonomy_identity_unique` ON `taxonomy_nodes` (`source`,`version`,`source_id`);

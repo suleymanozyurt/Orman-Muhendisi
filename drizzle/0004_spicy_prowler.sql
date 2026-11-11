@@ -1,0 +1,1 @@
+ALTER TABLE `species` ADD `ecology` text;

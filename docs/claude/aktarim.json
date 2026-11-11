@@ -1,0 +1,112 @@
+{
+  "date": "2026-11-11",
+  "repository": "suleymanozyurt/Orman-Muhendisi-Site",
+  "branch": "claude/v67-tasarim",
+  "parent_commit": "bfa7a5b54c308e3c52cfb15be498408dfe25ad0c",
+  "v67_import_commit": "c5b6ca989bec5d5f9c09ffca931b997c8861e52a",
+  "source_zip_reimported": false,
+  "original_package": {
+    "filename": "Orman_Muhendisi_Claude_Paketi.zip",
+    "sha256": "fc2d90d42602075e92a51012ebc2fb88f176ef824678764c328db3a54a7a44a9",
+    "files": [
+      {
+        "filename": "BASLA.md",
+        "size_bytes": 2088,
+        "sha256": "1ba7a3644148205e08904964ba83d3aedf14d02f0890adb2a773837f0525b20e"
+      },
+      {
+        "filename": "CLAUDE_Orman_Muhendisi_Tam_Talimat.md",
+        "size_bytes": 74085,
+        "sha256": "1bd05bd4a37cd65c1c2e587caef075cfce2a0c177125e7b0bf8b86f497fd919a"
+      },
+      {
+        "filename": "Orman_Muhendisi_v67_Kaynak.zip",
+        "size_bytes": 10457910,
+        "sha256": "a4c3df2f3d91f4a373532c0a0a45c8cee1bf48dd673ad596e1418eb80e86f9c3"
+      },
+      {
+        "filename": "IMG_6183.jpeg",
+        "size_bytes": 194529,
+        "sha256": "2f6bc95af9169e1fdee922b46f574c080ddbd6a2d58c3fe097b3a473b9ce8a1e"
+      },
+      {
+        "filename": "IMG_6184.jpeg",
+        "size_bytes": 244500,
+        "sha256": "b2814e721cc8685e78ecf00af6960b58496db55dbbe195042229d02c7c6fb8ab"
+      },
+      {
+        "filename": "SHA256.txt",
+        "size_bytes": 361,
+        "sha256": "c903bd8f38627bf09cee8bdfa9cd94de5829bc03f4573d826d2b513f926d5999"
+      }
+    ]
+  },
+  "source_comparison": {
+    "identical_files": 1048,
+    "changed_files_preserved": [
+      ".gitignore",
+      "README.md",
+      "app/add-menu.tsx",
+      "app/api/photo-identify/handler.ts",
+      "app/home-intro.tsx",
+      "app/layout.tsx",
+      "app/lens-capture.tsx",
+      "app/lens-results.tsx",
+      "app/lens-types.ts",
+      "app/lens.css",
+      "app/site-shell.tsx",
+      "public/sw.js",
+      "tests/lens.test.mjs",
+      "vite.config.ts"
+    ],
+    "generated_font_cache_not_reimported": [
+      ".vinext/fonts/geist-8ac0455e797f/geist-001175b1.woff2",
+      ".vinext/fonts/geist-8ac0455e797f/geist-52306abf.woff2",
+      ".vinext/fonts/geist-8ac0455e797f/geist-875ccdd4.woff2",
+      ".vinext/fonts/geist-8ac0455e797f/geist-98bbbccb.woff2",
+      ".vinext/fonts/geist-8ac0455e797f/geist-ff2310f5.woff2",
+      ".vinext/fonts/geist-8ac0455e797f/style.css",
+      ".vinext/fonts/geist-mono-00e989178794/geist-mono-013b2f2f.woff2",
+      ".vinext/fonts/geist-mono-00e989178794/geist-mono-0638449e.woff2",
+      ".vinext/fonts/geist-mono-00e989178794/geist-mono-44745446.woff2",
+      ".vinext/fonts/geist-mono-00e989178794/geist-mono-44e03052.woff2",
+      ".vinext/fonts/geist-mono-00e989178794/geist-mono-971fb274.woff2",
+      ".vinext/fonts/geist-mono-00e989178794/geist-mono-f6b33328.woff2",
+      ".vinext/fonts/geist-mono-00e989178794/style.css"
+    ]
+  },
+  "added_files": [
+    {
+      "path": "BASLA.md",
+      "size_bytes": 1684,
+      "sha256": "0a49287b815c0a1ac22b3701d0c005de7074cc1a9b4cce8090bb391b31ff2ed0"
+    },
+    {
+      "path": "CLAUDE.md",
+      "size_bytes": 2248,
+      "sha256": "b93cf61066d106ae2a5944188b7252c42d1b3962a097541f70d637e3f5c976eb"
+    },
+    {
+      "path": "docs/claude/CLAUDE_Orman_Muhendisi_Tam_Talimat.md",
+      "size_bytes": 74085,
+      "sha256": "1bd05bd4a37cd65c1c2e587caef075cfce2a0c177125e7b0bf8b86f497fd919a"
+    },
+    {
+      "path": "docs/claude/README.md",
+      "size_bytes": 2903,
+      "sha256": "97c8ff769e0103a9cebd2204d861330f2c7dde8bcfe6a3e401c2d6fbecc405f3"
+    },
+    {
+      "path": "docs/claude/referanslar/IMG_6183.jpeg",
+      "size_bytes": 194529,
+      "sha256": "2f6bc95af9169e1fdee922b46f574c080ddbd6a2d58c3fe097b3a473b9ce8a1e"
+    },
+    {
+      "path": "docs/claude/referanslar/IMG_6184.jpeg",
+      "size_bytes": 244500,
+      "sha256": "b2814e721cc8685e78ecf00af6960b58496db55dbbe195042229d02c7c6fb8ab"
+    }
+  ],
+  "production_data_exported": false,
+  "live_site_changed": false
+}

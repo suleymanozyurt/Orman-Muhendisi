@@ -1,0 +1,46 @@
+.app-shell .view-surface,.app-shell .plant-assistant:not([hidden]){animation:none}
+.app-shell button,.app-shell a{-webkit-tap-highlight-color:transparent;touch-action:manipulation}
+.app-shell button{transition:background-color 70ms,color 70ms,border-color 70ms,box-shadow 70ms}
+.app-shell .mobile-nav button:active{background:var(--mint,#eef5ef);color:var(--green,#24683d)}
+.add-menu{width:min(460px,calc(100vw - 32px));max-height:calc(100dvh - 32px);padding:20px;animation:none}
+.add-menu-options{display:grid;gap:6px;margin-top:12px}
+.add-menu-options>button{display:flex;align-items:center;gap:14px;text-align:left;padding:14px 10px;min-height:66px;border:0;border-radius:12px;background:transparent;color:inherit;width:100%}
+.add-menu-options>button:hover,.add-menu-options>button:active{background:var(--mint,#eef5ef)}
+.add-menu-options>button>svg{width:23px;height:23px;color:var(--green,#24683d);flex:none}
+.add-menu-options>button>span:nth-child(2){flex:1;display:grid;gap:4px}
+.add-menu-options strong{font-size:15px;font-weight:650}.add-menu-options small{font-size:12px;color:var(--muted,#65756a);line-height:1.45}
+@media(max-width:700px){.add-menu{width:100%;max-width:100%;margin:auto 0 0;border-radius:22px 22px 0 0;padding:18px 16px calc(18px + env(safe-area-inset-bottom));max-height:calc(100dvh - env(safe-area-inset-top) - 16px)}}
+@media(prefers-reduced-motion:reduce){.app-shell button{transition:none}}
+.mobile-profile-trigger{display:none}
+.add-menu-intro{margin:0 0 16px;color:var(--muted);font-size:.875rem;line-height:1.6}
+.add-menu-options{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.add-menu-options>button{grid-column:1/-1}
+.add-menu-options>button.add-photo-choice{grid-column:auto;display:grid;align-content:start;align-items:start;gap:12px;min-height:140px;padding:16px;background:var(--mint);border:1px solid var(--line);border-radius:18px}
+.add-menu-options>button.add-photo-choice>span:nth-child(2){gap:6px}
+.add-menu-options>button.add-photo-choice>span:last-child{display:none}
+.add-menu-options>button.add-photo-choice>svg{width:28px;height:28px;color:var(--forest)}
+.connected-design .dock-create-mark{position:relative;display:grid;place-items:center;width:36px;height:36px;flex:none;border-radius:13px 13px 13px 5px;background:var(--accent);color:var(--accent-ink)}
+.connected-design .dock-create-mark>svg{width:21px;height:21px}
+.connected-design .dock-create-mark>span{position:absolute;right:-4px;bottom:-2px;display:grid;place-items:center;width:16px;height:16px;border:2px solid var(--white);border-radius:8px;background:var(--accent);color:var(--accent-ink)}
+.connected-design .dock-create-mark>span>svg{width:12px;height:12px;stroke-width:2.5}
+.connected-design .mobile-nav .dock-create .dock-create-mark svg{box-sizing:border-box;padding:0;border:0;border-radius:0;color:inherit}
+.connected-design .mobile-nav .dock-create .dock-create-mark>svg{width:21px;height:21px}
+.connected-design .mobile-nav .dock-create .dock-create-mark>span>svg{width:12px;height:12px}
+@media(max-width:700px){
+ .connected-design .mobile-profile-trigger{display:grid;place-items:center;flex:none;width:44px;min-width:44px;height:44px;padding:0;border:1px solid var(--line);border-radius:50%;background:var(--mint);color:var(--forest);font-size:1rem;font-weight:650}
+ .mobile-profile-trigger>span{display:grid;place-items:center}
+ .connected-design .mobile-profile-trigger[aria-current=page]{border-color:var(--green)}
+}
+@media(max-width:700px){
+ .connected-design .global-header .brand{min-width:0;flex:1}
+ .connected-design .brand>span:last-child{min-width:0;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+ .connected-design .global-header .header-buttons{flex:none}
+ .connected-design .global-search{width:44px;min-width:44px;max-width:44px;height:44px}
+ .connected-design .global-header .mobile-menu-trigger{width:44px;min-width:44px;height:44px}
+ .connected-design .mobile-nav .dock-create{gap:2px;padding-top:0}
+ .connected-design .mobile-nav .dock-create small{font-weight:650;color:var(--forest)}
+ .connected-design .mobile-nav small{font-size:.75rem;white-space:nowrap}
+ .connected-design .add-menu .dialog-title{padding-bottom:6px}
+ .connected-design .add-menu .dialog-title h2{font-size:1.25rem}
+ .add-menu-options>button.add-photo-choice{min-height:140px;padding:14px}
+}

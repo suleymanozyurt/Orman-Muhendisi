@@ -1,0 +1,67 @@
+{
+  "/canopy-upward.jpg": {
+    "width": 1448,
+    "height": 1086,
+    "srcSet": "/responsive/canopy-upward-96.webp 96w, /responsive/canopy-upward-320.webp 320w, /responsive/canopy-upward-640.webp 640w, /responsive/canopy-upward-960.webp 960w"
+  },
+  "/life/animalia.jpg": {
+    "width": 941,
+    "height": 1000,
+    "srcSet": "/responsive/life-animalia-96.webp 96w, /responsive/life-animalia-320.webp 320w, /responsive/life-animalia-640.webp 640w, /responsive/life-animalia-941.webp 941w"
+  },
+  "/life/archaea.jpg": {
+    "width": 961,
+    "height": 1000,
+    "srcSet": "/responsive/life-archaea-96.webp 96w, /responsive/life-archaea-320.webp 320w, /responsive/life-archaea-640.webp 640w, /responsive/life-archaea-960.webp 960w"
+  },
+  "/life/bacteria.jpg": {
+    "width": 1000,
+    "height": 723,
+    "srcSet": "/responsive/life-bacteria-96.webp 96w, /responsive/life-bacteria-320.webp 320w, /responsive/life-bacteria-640.webp 640w, /responsive/life-bacteria-960.webp 960w"
+  },
+  "/life/chromista.jpg": {
+    "width": 1000,
+    "height": 657,
+    "srcSet": "/responsive/life-chromista-96.webp 96w, /responsive/life-chromista-320.webp 320w, /responsive/life-chromista-640.webp 640w, /responsive/life-chromista-960.webp 960w"
+  },
+  "/life/fungi.jpg": {
+    "width": 1000,
+    "height": 750,
+    "srcSet": "/responsive/life-fungi-96.webp 96w, /responsive/life-fungi-320.webp 320w, /responsive/life-fungi-640.webp 640w, /responsive/life-fungi-960.webp 960w"
+  },
+  "/life/protozoa.jpg": {
+    "width": 1000,
+    "height": 750,
+    "srcSet": "/responsive/life-protozoa-96.webp 96w, /responsive/life-protozoa-320.webp 320w, /responsive/life-protozoa-640.webp 640w, /responsive/life-protozoa-960.webp 960w"
+  },
+  "/species/abies-alba.jpg": {
+    "width": 500,
+    "height": 667,
+    "srcSet": "/responsive/species-abies-alba-96.webp 96w, /responsive/species-abies-alba-320.webp 320w, /responsive/species-abies-alba-500.webp 500w"
+  },
+  "/species/abies-cilicica.jpg": {
+    "width": 500,
+    "height": 667,
+    "srcSet": "/responsive/species-abies-cilicica-96.webp 96w, /responsive/species-abies-cilicica-320.webp 320w, /responsive/species-abies-cilicica-500.webp 500w"
+  },
+  "/species/abies-sibirica.jpg": {
+    "width": 500,
+    "height": 771,
+    "srcSet": "/responsive/species-abies-sibirica-96.webp 96w, /responsive/species-abies-sibirica-320.webp 320w, /responsive/species-abies-sibirica-500.webp 500w"
+  },
+  "/species/cedrus-libani.jpg": {
+    "width": 960,
+    "height": 691,
+    "srcSet": "/responsive/species-cedrus-libani-96.webp 96w, /responsive/species-cedrus-libani-320.webp 320w, /responsive/species-cedrus-libani-640.webp 640w, /responsive/species-cedrus-libani-960.webp 960w"
+  },
+  "/species/pinus-pinea.jpg": {
+    "width": 500,
+    "height": 753,
+    "srcSet": "/responsive/species-pinus-pinea-96.webp 96w, /responsive/species-pinus-pinea-320.webp 320w, /responsive/species-pinus-pinea-500.webp 500w"
+  },
+  "/species/quercus-infectoria.jpg": {
+    "width": 500,
+    "height": 750,
+    "srcSet": "/responsive/species-quercus-infectoria-96.webp 96w, /responsive/species-quercus-infectoria-320.webp 320w, /responsive/species-quercus-infectoria-500.webp 500w"
+  }
+}

@@ -1,0 +1,3 @@
+import type { CatalogState } from "./catalog-state";
+export type AssistantSource = { id:string; title:string; scientificName:string; family:string; href:string; profile:{kind:"plant" | "flora" | "taxonomy";id:string;version?:string;source?:import("./taxonomy-types").TaxonomySource}; facts:{label:string;value:string}[] };
+export type AssistantReply = { mode:"ai" | "catalog"; answer:string; sources:AssistantSource[]; total:number; filters:CatalogState; followUps:string[]; unavailable?:boolean; provider?:"gemini"|"openai"; webSources?:{id:number;title:string;url:string}[]; searchSuggestions?:string; googleUnavailable?:boolean };

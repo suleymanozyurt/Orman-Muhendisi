@@ -1,0 +1,13 @@
+"use client";
+import {useEffect,useRef,useState} from "react";
+import {translate,type Language} from "./i18n";
+import {Icon} from "./icons";
+import {resolveTheme,type ThemeChoice} from "./theme";
+export default function ThemeControl({compact=false,onChoice,language="tr"}:{language?:Language;compact?:boolean;onChoice?:(choice:ThemeChoice)=>void}){
+ const picker=useRef<HTMLDetailsElement>(null);
+ const [choice,setChoice]=useState<ThemeChoice>("light");
+ useEffect(()=>{const media=matchMedia("(prefers-color-scheme: dark)");const apply=(event?:Event)=>{let c:ThemeChoice=(document.documentElement.dataset.themeChoice as ThemeChoice)||"light";try{const p=localStorage.getItem("om.theme");if(p==="light"||p==="dark"||p==="system")c=p;}catch{}if(event instanceof CustomEvent)c=event.detail as ThemeChoice;setChoice(c);const theme=resolveTheme(c,media.matches);document.documentElement.dataset.theme=theme;document.documentElement.dataset.themeChoice=c;document.documentElement.style.colorScheme=theme;document.querySelector('meta[name="theme-color"]')?.setAttribute("content",theme==="dark"?"#0e120c":"#ffffff");};apply();media.addEventListener("change",apply);window.addEventListener("storage",apply);window.addEventListener("om-theme-change",apply);return()=>{media.removeEventListener("change",apply);window.removeEventListener("storage",apply);window.removeEventListener("om-theme-change",apply);};},[]);
+ const select=(value:ThemeChoice)=>{try{localStorage.setItem("om.theme",value);}catch{}setChoice(value);const theme=resolveTheme(value,matchMedia("(prefers-color-scheme: dark)").matches);document.documentElement.dataset.theme=theme;document.documentElement.style.colorScheme=theme;document.documentElement.dataset.themeChoice=value;window.dispatchEvent(new CustomEvent("om-theme-change",{detail:value}));};
+ const options=<div className="theme-options" role="group" aria-label="Renk teması">{([{id:"system",title:"Sistem",icon:"monitor"},{id:"light",title:"Açık",icon:"sun"},{id:"dark",title:"Koyu",icon:"moon"}] as const).map(o=><button type="button" key={o.id} className={choice===o.id?"active":""} aria-pressed={choice===o.id} onClick={()=>{select(o.id);onChoice?.(o.id);if(picker.current){picker.current.open=false;picker.current.querySelector("summary")?.focus();}}}><Icon name={o.icon}/>{translate(o.title,language)}</button>)}</div>;
+ return compact?<details ref={picker} className="theme-picker"><summary aria-label="Renk temasını seç"><Icon name={choice==="dark"?"moon":choice==="light"?"sun":"monitor"}/></summary>{options}</details>:<div className="theme-settings"><strong>{translate("Renk teması",language)}</strong>{options}<small>{translate("Sistem seçildiğinde cihazının renk tercihine uyar.",language)}</small></div>;
+}

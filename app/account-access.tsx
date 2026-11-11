@@ -1,0 +1,30 @@
+"use client";
+import {useState} from "react";
+import {Icon} from "./icons";
+import type {Language} from "./i18n";
+
+const providers=["Google","Facebook","Apple","Microsoft"] as const;
+export default function AccountAccess({language,mode,onMode,signInUrl,onContinue}:{language:Language;mode:string;onMode:(mode:string)=>void;signInUrl:string;onContinue:()=>void}){
+ const t=(tr:string,en:string)=>language==="en"?en:tr,register=mode==="signup";
+ return <section className="account-access" aria-labelledby="access-title">
+  <div className="access-intro"><img src="/brand/orman-emblem.png" alt="" width="48" height="64"/><span className="eyebrow">ORMAN MÜHENDİSİ</span><h1 id="access-title">{register?t("Aramıza katıl","Join our community"):t("Yeniden hoş geldin","Welcome back")}</h1><p>{t("Gözlemlerin, koleksiyonların ve bakım defterin bir arada.","Your observations, collections and care journal, together.")}</p></div>
+  <div className="access-tabs" aria-label={t("Hesap işlemleri","Account actions")}><button aria-pressed={!register} onClick={()=>{onMode("signin");}}>{t("Giriş yap","Sign in")}</button><button aria-pressed={register} onClick={()=>{onMode("signup");}}>{t("Hesap oluştur","Create account")}</button></div>
+  <div className="access-providers">{providers.map(name=><button key={name} type="button" disabled aria-describedby="provider-availability"><span className={`provider-monogram provider-${name.toLowerCase()}`} aria-hidden="true">{name==="Facebook"?"f":name[0]}</span><span>{language==="en"?`Continue with ${name}`:`${name} ile devam et`}<small>{t("Henüz etkin değil","Not enabled")}</small></span></button>)}</div>
+  <p className="access-availability" id="provider-availability">{t("Bu giriş seçenekleri henüz etkin değil. Hesabına aşağıdan giriş yapabilirsin.","These sign-in options are not enabled. You can access your account below.")}</p>
+  <div className="access-divider"><span>{t("veya","or")}</span></div>
+  <a className="access-current" href={signInUrl} target="_top">{t("ChatGPT ile devam et","Continue with ChatGPT")}</a>
+  <button className="access-guest" onClick={onContinue}>{t("Giriş yapmadan keşfet","Explore without signing in")}</button>
+ </section>;
+}
+
+export function AccountPanel({language,name,onName,onSave,authenticated,onAccess,onProfile}:{language:Language;name:string;onName:(name:string)=>void;onSave:()=>Promise<void>;authenticated:boolean;onAccess:()=>void;onProfile:()=>void}){
+ const [busy,setBusy]=useState(false),[message,setMessage]=useState(""),[error,setError]=useState(false);
+ const t=(tr:string,en:string)=>language==="en"?en:tr;
+ async function save(event:React.FormEvent){event.preventDefault();if(busy)return;setBusy(true);setMessage("");setError(false);try{await onSave();setMessage(t("Görünen adın kaydedildi.","Your display name was saved."));}catch(cause){setError(true);setMessage(cause instanceof Error?cause.message:t("Kaydedilemedi. Yeniden dene.","Could not save. Please retry."));}finally{setBusy(false);}}
+ return <div className="account-workspace">
+  <section className="account-summary"><span className="account-portrait" aria-hidden="true">{name.trim()?name.trim()[0].toLocaleUpperCase(language):<Icon name="user"/>}</span><div><span className="eyebrow">{t("KİŞİSEL ALANIN","YOUR SPACE")}</span><h2 data-user-content={!!name}>{name||t("Doğaya bir adım daha yakın","A little closer to nature")}</h2><p>{t("Profilini ve hesabını buradan yönet.","Manage your profile and account here.")}</p></div><button className="account-profile-link" onClick={onProfile}>{t("Profilimi gör","View my profile")}</button></section>
+  <div className="account-cards"><section className="account-card"><div className="account-card-title"><Icon name="user"/><div><h2>{t("Profil bilgileri","Profile details")}</h2><p>{t("Toplulukta nasıl görünmek istersin?","How would you like to appear in the community?")}</p></div></div><form onSubmit={save}><label htmlFor="account-display-name">{t("Görünen ad","Display name")}</label><input id="account-display-name" value={name} disabled={busy} onChange={e=>{onName(e.target.value);setMessage("");}} required maxLength={60} autoComplete="nickname" placeholder={t("Adını yaz","Enter your name")}/><small>{t("Gözlemlerinde ve profilinde bu ad görünür.","This name appears on your observations and profile.")}</small><div className="account-save-row"><button className="submit-button" disabled={busy||!name.trim()}>{busy?t("Kaydediliyor…","Saving…"):t("Değişiklikleri kaydet","Save changes")}</button>{message&&<p role={error?"alert":"status"} className={error?"account-error":"account-saved"}>{!error&&<Icon name="check"/>}{message}</p>}</div></form></section>
+  <section className="account-card"><div className="account-card-title"><Icon name="monitor"/><div><h2>{t("Giriş ve hesap","Sign-in and account")}</h2><p>{t("Hesabına erişim seçeneklerin.","Ways to access your account.")}</p></div></div><div className="account-session"><span className="account-service-icon"><Icon name="user"/></span><span><strong>{authenticated?"ChatGPT":t("Misafir oturumu","Guest session")}</strong><small>{authenticated?t("Şu an kullandığın giriş yöntemi","Your current sign-in method"):t("Kişisel kayıtlar için giriş yap","Sign in for personal records")}</small></span>{authenticated&&<Icon name="check"/>}</div><div className="account-provider-names">{providers.map(name=><span key={name}>{name}</span>)}</div><button className="account-access-link" onClick={onAccess}>{t("Tüm giriş seçeneklerini gör","View all sign-in options")}</button><small className="account-connect-note">{t("Diğer hesaplarla giriş henüz etkin değil.","Sign-in with other accounts is not enabled yet.")}</small></section></div>
+  {authenticated&&<section className="account-session-footer"><div><strong>{t("Oturumu kapat","End your session")}</strong><p>{t("Gözlemlerin ve koleksiyonların hesabında kalır.","Your observations and collections stay in your account.")}</p></div><a className="account-signout" href="/signout-with-chatgpt?return_to=%2F" target="_top"><Icon name="share"/>{t("Çıkış yap","Sign out")}</a></section>}
+ </div>;
+}

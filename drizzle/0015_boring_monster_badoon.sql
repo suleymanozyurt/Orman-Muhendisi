@@ -1,0 +1,1 @@
+ALTER TABLE `observations` ADD `link_preview` text;

@@ -1,0 +1,50 @@
+{
+  "schema": 1,
+  "assistant": "ORMAN MÜHENDİSİ ASİSTANI",
+  "expectedPluginVersion": "0.99.99",
+  "minimumRuleCount": 105,
+  "canonicalGoogleDocId": "10TaPAcs7rWkzQo4TJ2riN6u7OpMYbpWlElQzy8wdNsw",
+  "canonicalGoogleSheetId": "1ca2doEunplE6B47K8D35A2WxgLD1GAshQckmqepAtEs",
+  "rulesTab": "OrtakKurallar",
+  "completionPolicy": {
+    "minimumIndependentNativeImages": 4,
+    "minimumEffectivePpi": 300,
+    "requireDocxZipCrc": true,
+    "requireAllPagesRendered": true,
+    "requireSourceVerified": true,
+    "requireDocxSha256": true,
+    "driveArchiveRequiresExplicitExactShaApproval": true
+  },
+  "driveAccess": {
+    "mode": "service_account_read_only",
+    "permittedResourceIds": [
+      "10TaPAcs7rWkzQo4TJ2riN6u7OpMYbpWlElQzy8wdNsw",
+      "1ca2doEunplE6B47K8D35A2WxgLD1GAshQckmqepAtEs"
+    ],
+    "metadataTabMinimum": 24,
+    "requiredSheetTabs": [
+      "OrtakKurallar",
+      "OrtakKayitlar",
+      "ArastirmaHavuzu",
+      "ArastirmaKuyrugu",
+      "ArastirmaGunlugu",
+      "IcerikVersiyonlari",
+      "SecimGunlugu",
+      "SabahRaporlari",
+      "TurkiyeFlora",
+      "FloraKapsam",
+      "FloraKaynaklari",
+      "FloraKonuIzleri",
+      "OgrenmeDenetimi",
+      "KitapEnvanteri",
+      "PerformansVerileri"
+    ],
+    "prohibitPublishingContents": true,
+    "allowedHttpHosts": [
+      "oauth2.googleapis.com",
+      "docs.googleapis.com",
+      "sheets.googleapis.com"
+    ],
+    "allowBookArchiveAccess": false
+  }
+}

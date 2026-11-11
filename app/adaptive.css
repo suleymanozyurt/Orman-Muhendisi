@@ -1,0 +1,164 @@
+@layer om.tokens {
+  :root {
+    --color-background-primary:var(--page-background,var(--white)); --color-background-secondary:var(--white);
+    --color-text-primary:var(--ink); --color-text-secondary:var(--muted); --color-border:var(--line);
+    --color-control-border:color-mix(in srgb,var(--ink) 60%,var(--white));
+    --radius-small:10px; --radius-medium:16px; --radius-large:24px;
+    --spacing-xs:4px; --spacing-sm:8px; --spacing-md:16px; --spacing-lg:24px; --spacing-xl:32px;
+    --motion-press:70ms; --motion-fast:140ms; --motion-normal:220ms; --motion-slow:320ms;
+    --easing-standard:cubic-bezier(.2,0,.2,1); --easing-enter:cubic-bezier(0,0,.2,1); --easing-exit:cubic-bezier(.4,0,1,1);
+    --elevation-low:0 3px 12px color-mix(in srgb,var(--ink) 5%,transparent);
+    --elevation-medium:0 16px 40px color-mix(in srgb,var(--ink) 12%,transparent);
+    --type-display:clamp(2rem,1.5rem + 2vw,3rem); --type-h1:clamp(1.75rem,1.3rem + 1.6vw,2.5rem);
+    --type-h2:clamp(1.375rem,1.1rem + 1vw,1.875rem); --type-h3:clamp(1.125rem,1rem + .5vw,1.375rem);
+    --type-body:1rem; --type-caption:.8125rem; --type-label:.875rem;
+  }
+}
+/* Existing surfaces share these semantic tokens; named containers adapt locally. */
+.connected-design .main-area{container:app-content / inline-size;min-inline-size:0}
+html[data-theme=dark] .connected-design .global-header{background:var(--white);color:var(--ink);border-color:var(--line)}
+.life-discover{container:discovery / inline-size}
+.care-workspace{container:care / inline-size}
+.hub-surface{container:hub / inline-size}
+.life-taxon-item{container:taxon-card / inline-size;min-inline-size:0}
+.connected-design :is(h1,.feed-top h1,.page-heading h1){font-size:var(--type-h1);line-height:1.18;text-wrap:balance}
+.connected-design :is(.life-section-heading h2,.hub-heading h2){font-size:var(--type-h2)}
+.connected-design :is(.prose p,.life-node-intro p,.health-evidence p){max-inline-size:68ch}
+.connected-design :is(input:not([type=checkbox]):not([type=radio]),textarea){font-size:max(1rem,16px)}
+.connected-design :is(.universal-search form,.region-search-control,input:not([type=checkbox]):not([type=radio]),textarea){border-color:var(--color-control-border)}
+.search-select-popup button{font-size:var(--type-label);min-block-size:44px}
+.search-select:has(.search-select-error){flex-wrap:wrap}
+.search-select-error{flex-basis:100%;margin:8px 0 0;color:var(--ink);font-size:var(--type-label);line-height:1.5}
+.connected-design .search-select-input[aria-invalid=true]{border:2px solid var(--ink)}
+.universal-search input::-webkit-search-cancel-button{display:none}
+.connected-design :is(.universal-search form,.assistant-composer):focus-within{outline:2px solid var(--ink);outline-offset:3px}
+.connected-design .assistant-symbol{background:var(--accent);color:var(--accent-ink);box-shadow:none}
+.connected-design .assistant-welcome,.connected-design .assistant-working button{background:var(--white);color:var(--ink)}
+html[data-theme=dark] .connected-design :is(.region-search-control>button,.explore-period>div>button:not(.year-reset),.map-species-peek>div>button){background:var(--white);color:var(--ink)}
+.connected-design :is(button,a,input,textarea,summary):focus-visible,.nav-submenu a:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
+.connected-design :is(button,input,a){-webkit-tap-highlight-color:transparent}
+.photo-viewer-image{touch-action:pan-y pinch-zoom}
+.connected-design :is(button,a,summary){touch-action:manipulation}
+.connected-design :is(.life-taxon-card,.life-major-cover,.plant-card,.solid-action){transition:background var(--motion-fast) var(--easing-standard),box-shadow var(--motion-normal) var(--easing-standard),transform var(--motion-fast) var(--easing-standard)}
+.connected-design button:not(:disabled):active{transform:scale(.985);transition-duration:var(--motion-press)}
+.connected-design :is(.catalog-record-actions button,.catalog-preview-tags button,.catalog-preview-provinces button,.catalog-pagination button){min-block-size:44px;touch-action:manipulation}
+.surface-skeleton{display:grid;gap:var(--spacing-md);min-block-size:50svh;padding-block:var(--spacing-lg)}
+.surface-skeleton>span{display:block;background:var(--color-background-secondary);border-radius:var(--radius-medium);block-size:110px}
+.surface-skeleton>span:nth-child(2){block-size:220px}
+.chat-loading{padding:var(--spacing-lg);font-size:var(--type-body);color:var(--muted)}
+.route-progress{position:fixed;inset-block-start:calc(var(--ui-header) + 8px);inset-inline-end:18px;margin:0;z-index:210;padding:6px 12px;border:1px solid var(--line);border-radius:20px;background:var(--white);color:var(--muted);font-size:var(--type-caption)}
+.app-runtime-notice{position:fixed;inset-inline-start:16px;inset-block-end:24px;z-index:500;max-inline-size:min(420px,calc(100% - 32px));display:grid;gap:12px;padding:16px;background:var(--white);border:1px solid var(--line);border-radius:var(--radius-medium);box-shadow:var(--elevation-medium)}
+.app-runtime-notice p{margin:0;line-height:1.5;font-size:var(--type-label);color:var(--ink)}
+.app-runtime-notice>div{display:flex;gap:8px}
+.app-runtime-notice button{min-block-size:44px;padding-inline:16px;border-radius:var(--radius-small);background:var(--paper);color:var(--ink)}
+.life-taxon-grid,.life-node-body .life-taxon-grid,.life-flora-grid{grid-template-columns:repeat(auto-fit,minmax(min(100%,15rem),1fr))}
+.life-taxon-card{flex-direction:column}
+.life-taxon-image{inline-size:100%;block-size:180px;min-block-size:0}
+.life-taxon-glyph{inline-size:100%;block-size:74px;flex-direction:row;font-size:var(--type-caption)}
+.life-taxon-glyph small,.life-taxon-caption>small,.life-major-branches small{font-size:.75rem}
+.life-taxon-caption{inline-size:100%;padding:var(--spacing-md);gap:var(--spacing-xs)}
+.life-other-grid{grid-template-columns:repeat(auto-fit,minmax(min(100%,12rem),1fr))}
+.life-other-grid .life-kingdom-card,.life-other-grid .life-kingdom-card:nth-child(-n+3){grid-column:auto}
+.life-workspace{grid-template-columns:1fr}
+.life-branch-rail{display:none;position:static;max-block-size:none}
+.life-branch-rail.is-open{display:block}
+.life-tree-toggle{display:inline-flex}
+.life-node-intro{display:grid;grid-template-columns:1fr}
+.life-node-intro figure{inline-size:100%;max-inline-size:none}
+.life-node-intro figure>img{block-size:clamp(190px,32cqi,320px)}
+.life-node-intro figure>picture>img{inline-size:100%;block-size:220px;block-size:clamp(190px,32cqi,320px);object-fit:cover;border-radius:var(--radius-medium)}
+.life-editorial-pair>button>picture>img{position:absolute;inset:0;z-index:-2;inline-size:100%;block-size:100%;object-fit:cover}
+.life-flora-card>picture>img{inline-size:105px;align-self:stretch;object-fit:cover}
+.native-post .post-species>picture>img.species-name-photo{width:38px;height:38px;border-radius:11px}
+.life-major-surface{grid-template-columns:1fr}
+.life-feature-grid{grid-template-columns:repeat(auto-fit,minmax(min(100%,13rem),1fr))}
+.life-editorial-pair{grid-template-columns:1fr}
+.life-species-facts{grid-template-columns:1fr}
+.connected-design .regional-explorer .explore-workspace{display:block;block-size:clamp(400px,65svh,620px)}
+.connected-design .explore-workspace.show-map .explore-list{display:none}
+.connected-design .explore-workspace.show-list .explore-map-wrap{display:none}
+.connected-design .explore-mobile-tabs{display:flex}
+.connected-design .field-map-layout,.connected-design .health-layout,.connected-design .care-living-grid,.connected-design .composer-layout{grid-template-columns:1fr}
+@container app-content (min-width:44rem){
+  .connected-design .regional-explorer .explore-workspace{display:grid;grid-template-columns:minmax(0,1fr) minmax(250px,34%)}
+  .connected-design .explore-workspace.show-map .explore-list,.connected-design .explore-workspace.show-list .explore-map-wrap{display:block}
+  .connected-design .explore-mobile-tabs{display:none}
+  .connected-design .field-map-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(240px,32%)}
+  .connected-design .field-map-list{border-inline-start:1px solid var(--line);border-block-start:0;block-size:520px}
+  .connected-design .composer-layout{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@container discovery (min-width:40rem){
+  .life-major-surface{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .life-editorial-pair,.life-species-facts{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .life-node-intro{grid-template-columns:minmax(200px,38%) minmax(0,1fr)}
+}
+@container discovery (min-width:52rem){
+  .life-workspace{grid-template-columns:170px minmax(0,1fr);gap:var(--spacing-lg)}
+  .life-branch-rail{display:block;position:sticky;inset-block-start:calc(var(--ui-header) + 20px);max-block-size:calc(100dvh - var(--ui-header) - 48px)}
+  .life-tree-toggle{display:none}
+}
+@container taxon-card (min-width:25rem){
+  .life-taxon-card{flex-direction:row}
+  .life-taxon-image{inline-size:36%;block-size:auto;min-block-size:180px;flex:none}
+  .life-taxon-glyph{inline-size:78px;block-size:auto;flex-direction:column;flex:none}
+}
+@container care (min-width:46rem){
+  .connected-design .care-living-grid{grid-template-columns:minmax(0,1fr) 260px}
+}
+@container hub (min-width:48rem){
+  .connected-design .health-layout{grid-template-columns:minmax(0,1fr) 260px}
+}
+@media(hover:hover) and (any-pointer:fine){
+  .life-major-cover:hover{box-shadow:inset 0 0 0 2px var(--ink)}
+  .connected-design :is(.plant-card,.life-taxon-card):hover{transform:translateY(-2px);box-shadow:var(--elevation-low)}
+}
+@media(pointer:coarse){
+  .connected-design .search-select .search-select-input{min-block-size:48px;padding-inline-end:52px}
+  .connected-design .search-select .search-select-toggle{inline-size:44px!important;min-inline-size:44px!important;block-size:44px;inset-block-start:2px;inset-block-end:auto;inset-inline-end:2px}
+  .connected-design :is(.icon-button,.heading-search,.post-tools button,.photo-album-expand,.photo-album-prev,.photo-album-next,.chat-launcher,.dialog-title>button,.life-breadcrumb button,.life-search>button){min-inline-size:44px;min-block-size:44px}
+  .search-select-popup [role=option]{min-block-size:48px}
+  .connected-design .sidebar .nav-submenu-toggle{inline-size:44px;block-size:44px;min-block-size:44px;inset-block-start:2px;inset-block-end:auto;inset-inline-end:2px}
+  .connected-design .sidebar .nav-item>a{padding-inline-end:48px}
+  .connected-design .life-page-tabs button{min-block-size:48px}
+}
+@media(min-width:701px) and (max-width:999px) and (pointer:coarse){
+  .connected-design .sidebar .nav-item>a{padding-inline:4px;padding-block:12px 45px;min-block-size:112px}
+  .connected-design .sidebar .nav-submenu-toggle{inset-block-start:auto;inset-block-end:0;inset-inline-end:20px}
+}
+@media(min-width:1000px) and (max-width:1180px) and (pointer:coarse){
+  .connected-design.app-shell,.connected-design.app-shell.wide-view,.connected-design.app-shell.social-layout{grid-template-columns:196px minmax(0,1fr)}
+  .connected-design .sidebar{inline-size:196px;padding:12px 8px}
+  .connected-design .sidebar .nav-item>a{flex-direction:row;justify-content:start;text-align:start;min-block-size:48px;padding:10px 48px 10px 10px}
+  .connected-design .sidebar .nav-item>a>span{font-size:var(--type-label);inline-size:auto;max-inline-size:none}
+}
+@media(max-width:700px){
+  .app-runtime-notice{inset-block-end:auto;inset-block-start:calc(var(--ui-header) + 8px)}
+  .connected-design .global-header{inline-size:100%;margin-inline:0;padding-inline:max(14px,env(safe-area-inset-left)) max(14px,env(safe-area-inset-right))}
+  .connected-design .search-dialog{inset:0;margin:0;inline-size:100%;max-inline-size:none;block-size:100dvh;max-block-size:100dvh;border-radius:0;padding:max(20px,env(safe-area-inset-top)) 18px max(20px,env(safe-area-inset-bottom))}
+  .connected-design .search-dialog .dialog-title{position:sticky;inset-block-start:0;background:var(--white);z-index:2}
+  .connected-design .menu-dialog{max-block-size:calc(100dvh - 20px);padding-block-end:max(20px,env(safe-area-inset-bottom))}
+  .connected-design .content-panel{padding-inline:16px}
+  .life-other-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(orientation:landscape) and (max-height:500px){
+  .connected-design .global-header{height:calc(56px + env(safe-area-inset-top))}
+  .connected-design.app-shell{padding-block-start:calc(70px + env(safe-area-inset-top));padding-inline:max(16px,env(safe-area-inset-left)) max(16px,env(safe-area-inset-right))}
+  .connected-design .mobile-nav.liquid-dock,.dock-assistant{height:54px;min-height:54px}
+  .connected-design .mobile-nav.liquid-dock small{display:none}
+  .mobile-dock-shell{max-inline-size:430px}
+}
+@media(prefers-contrast:more),(prefers-reduced-transparency:reduce){
+  :root{--line:color-mix(in srgb,var(--ink) 48%,transparent);--muted:var(--ink)}
+  .connected-design :is(.global-header,.mobile-nav.liquid-dock,.compact-topbar),.nav-submenu{background:var(--white)!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important}
+}
+@media(prefers-reduced-motion:reduce){
+  :root{--motion-fast:0ms;--motion-normal:0ms;--motion-slow:0ms}
+  .connected-design button:active,.connected-design :is(.plant-card,.life-taxon-card):hover{transform:none}
+}
+@supports not(color:color-mix(in srgb,black,white)){
+  :root{--line:#d9dfdc;--muted:#55675d;--color-control-border:var(--muted)}
+  html[data-theme=dark]{--line:#4c514e;--muted:#d0d4d1}
+}
+
+.route-failure{max-inline-size:40rem;margin-inline:auto;padding:clamp(24px,5cqi,48px);border:1px solid var(--line);border-radius:20px;background:var(--white);color:var(--ink)}
+.route-failure h2{font-size:1.25rem;line-height:1.35;margin:0 0 12px}.route-failure p{font-size:1rem;line-height:1.6;color:var(--muted);margin:0 0 20px}.route-failure button{min-block-size:44px;padding:10px 18px;border:1px solid var(--line);border-radius:12px;background:var(--ink);color:var(--white);font:inherit}.route-failure button:focus-visible{outline:2px solid var(--ink);outline-offset:4px}

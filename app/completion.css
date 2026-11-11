@@ -1,0 +1,46 @@
+/* Quiet additions share the existing palette and component tokens. */
+.source-coverage-panel{container:source-coverage/inline-size;background:var(--paper);border:0;border-radius:14px;margin-block:18px 22px;color:var(--ink);overflow:hidden}
+.source-coverage-panel>summary{min-block-size:48px;display:flex;align-items:center;gap:10px;padding:12px 16px;cursor:pointer;list-style:none;font-size:.875rem;font-weight:600}
+.source-coverage-panel>summary::-webkit-details-marker{display:none}
+.source-coverage-panel>summary:after{content:"⌄";font-size:1.25rem;line-height:1;transform:rotate(0);transition:transform var(--motion-fast) var(--easing-standard)}
+.source-coverage-panel[open]>summary:after{transform:rotate(180deg)}
+.source-coverage-panel>summary>svg{inline-size:18px;block-size:18px;flex:none}
+.source-coverage-panel>summary>small{margin-inline-start:auto;font-size:.8125rem;font-weight:400;color:var(--muted);text-align:end}
+.source-coverage-panel>summary:focus-visible{outline:2px solid var(--ink);outline-offset:-3px;border-radius:14px}
+.source-coverage-content{padding:0 16px 16px}.source-coverage-content>p{font-size:.8125rem;line-height:1.65;max-inline-size:75ch;margin-block:0 12px;color:var(--muted)}
+.source-coverage-content>ul{display:grid;grid-template-columns:1fr;list-style:none;margin:0;padding:0;gap:0 24px}
+.source-coverage-content li{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;padding-block:10px;border-block-end:1px solid var(--line);font-size:.8125rem;line-height:1.5;min-inline-size:0}
+.source-coverage-content li>span:first-child{flex:1;min-inline-size:90px}
+.source-coverage-content li>span:nth-child(2){display:flex;align-items:center;gap:5px;color:var(--muted)}
+.source-coverage-content li svg{inline-size:14px;block-size:14px}
+.source-coverage-content li>a{min-block-size:32px;display:inline-flex;align-items:center;color:var(--ink);text-underline-offset:3px}
+.source-coverage-content .source-coverage-date{margin-block:14px 0}
+@container source-coverage (min-width:650px){.source-coverage-content>ul{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@container source-coverage (max-width:350px){.source-coverage-panel>summary{flex-wrap:wrap}.source-coverage-panel>summary>small{flex-basis:100%;margin-inline-start:28px;text-align:start}.source-coverage-panel>summary:after{position:absolute;inset-inline-end:16px}.source-coverage-panel>summary{position:relative;padding-inline-end:40px}}
+.connected-design .life-major-group{container:life-group/inline-size}
+.connected-design .life-major-heading h3{font-size:clamp(1.2rem,1.5cqi,1.6rem);letter-spacing:-.025em}
+.connected-design .life-major-cover{min-block-size:230px;transition:box-shadow var(--motion-fast) var(--easing-standard)}
+.connected-design .life-major-cover:after{background:linear-gradient(transparent 30%,rgba(0,0,0,.72))}
+.connected-design .life-major-branches>button{min-block-size:54px;transition:background var(--motion-fast) var(--easing-standard);border-block-end-color:var(--line)}
+.connected-design .life-taxon-item{container:taxon-card/inline-size;min-inline-size:0}
+.connected-design .life-taxon-caption>strong{line-height:1.4;overflow-wrap:anywhere}
+.connected-design .life-taxon-card[aria-current=page]{background:var(--paper);box-shadow:inset 0 0 0 2px var(--muted)}
+.connected-design .life-branch-rail [aria-current=page]{background:var(--paper);color:var(--ink)}
+.connected-design .life-page-tabs button[aria-selected=true]{background:var(--paper);color:var(--ink)}
+.connected-design .life-plant-topics>button{min-block-size:44px}
+.connected-design .life-major-branches>button:focus-visible,.connected-design .life-major-cover:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
+@container life-group (max-width:550px){.connected-design .life-major-surface{grid-template-columns:1fr}.connected-design .life-major-cover{min-block-size:185px}.connected-design .life-major-heading{padding:18px 18px 14px}.connected-design .life-major-branches{padding:12px 8px 2px}}
+@media (hover:hover) and (pointer:fine){.connected-design .life-taxon-card:hover,.connected-design .life-flora-card:hover,.connected-design .life-kingdom-card:hover{box-shadow:0 0 0 2px var(--muted),var(--elevation-low);transform:translateY(-2px)}}
+.access-providers button:disabled{cursor:default;opacity:1;border-color:var(--line);background:var(--paper);color:var(--muted)}
+.access-providers button>span:last-child{display:grid;gap:4px;text-align:start}.access-providers button small{font-size:.75rem;font-weight:400;color:var(--muted)}
+.access-providers .provider-monogram{color:var(--ink)!important;background:var(--white)!important}
+.device-draft-remove:disabled{opacity:.35;cursor:default}
+@media(prefers-reduced-motion:reduce){.source-coverage-panel>summary:after,.connected-design .life-major-cover,.connected-design .life-major-branches>button{transition:none}.connected-design .life-taxon-card:hover,.connected-design .life-flora-card:hover,.connected-design .life-kingdom-card:hover{transform:none}}
+@media(prefers-contrast:more){.source-coverage-panel,.source-coverage-content li{outline:1px solid var(--ink)}.source-coverage-content>p,.source-coverage-panel>summary>small,.source-coverage-content li>span:nth-child(2){color:var(--ink)}}
+.observation-taxon-select{margin-block-end:18px;min-inline-size:0}.observation-taxon-select>label{display:block;margin-block-end:8px;font-size:.875rem;font-weight:550}.observation-taxon-select>small{display:block;margin-block-start:8px;font-size:.8125rem;font-weight:400;line-height:1.5;color:var(--muted)}
+.life-node-header>.life-observe{display:inline-flex;align-items:center;gap:8px;margin-inline-start:auto}.life-observe svg{inline-size:18px;block-size:18px}
+.taxon-community{margin-block-start:32px}.taxon-community-grid{container:taxon-community/inline-size;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,290px),1fr));gap:24px}.taxon-community-grid>article{overflow:hidden;min-inline-size:0;background:var(--white);border-radius:16px}.taxon-community-grid>article>div:last-child:not(.photo-album){padding:16px}.taxon-community-grid strong{font-size:.9375rem;font-weight:600}.taxon-community-grid small{display:block;font-size:.8125rem;color:var(--muted);margin-block-start:4px}.taxon-community-grid p{font-size:.9375rem;line-height:1.6;max-inline-size:65ch;margin-block:12px 0;overflow-wrap:anywhere}.taxon-community .photo-album-track{aspect-ratio:1.2}
+@media(max-width:600px){.life-node-header{flex-wrap:wrap}.life-node-header>div{flex-basis:100%}.life-node-header>.life-observe{margin-inline-start:0}.taxon-community-grid{grid-template-columns:1fr}.taxon-community .life-section-heading{flex-wrap:wrap}}
+
+.connected-design :is(button,a,input[type=button],input[type=submit]){touch-action:manipulation}
+.connected-design button:not(:disabled):active{transition-duration:var(--motion-press)}
