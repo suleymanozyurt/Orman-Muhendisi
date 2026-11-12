@@ -43,7 +43,7 @@ ${script}
 const flag = process.argv.indexOf("--document"), target = flag > 0 ? process.argv[flag + 1] : "";
 if (flag > 0 && !target) throw new Error("--document needs an output file");
 const output = target ? path.resolve(target) : root + "preview/dist/orman-lens-onizleme.html";
-const document = `<!doctype html><html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="robots" content="noindex,nofollow"><meta name="theme-color" content="#ffffff"><style>:root{color-scheme:light}body{margin:0}[hidden]{display:none!important}img{max-width:100%}</style></head><body>${page}</body></html>`;
+const document = `<!doctype html><html lang="tr" translate="no" class="notranslate"><head><meta charset="utf-8"><meta name="google" content="notranslate"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="robots" content="noindex,nofollow"><meta name="theme-color" content="#ffffff"><style>:root{color-scheme:light}body{margin:0}[hidden]{display:none!important}img{max-width:100%}</style></head><body>${page}</body></html>`;
 await mkdir(path.dirname(output), { recursive: true });
 await writeFile(output, target ? document : page);
 console.log(`${path.relative(root, output)}  ${(Buffer.byteLength(target ? document : page) / 1024).toFixed(0)} KiB`);

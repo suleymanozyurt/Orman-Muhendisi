@@ -50,6 +50,7 @@ export const metadata: Metadata = {
   appleWebApp: { capable:true, title:"Orman Mühendisi", statusBarStyle:"default" },
   other: {
     "apple-mobile-web-app-capable": "yes",
+    "google": "notranslate",
   },
   icons: {
     icon: "/favicon.svg",
@@ -66,7 +67,7 @@ export default async function RootLayout({
   const requestHeaders=await headers();
   const language=automaticLanguage(requestHeaders.get("cf-ipcountry")||"",requestHeaders.get("accept-language")||"tr");
   return (
-    <html lang={language} suppressHydrationWarning>
+    <html lang={language} translate="no" className="notranslate" suppressHydrationWarning>
       <head><script dangerouslySetInnerHTML={{__html:themeBootstrap}}/></head>
       <body
         className="antialiased"
