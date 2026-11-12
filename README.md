@@ -22,14 +22,14 @@ dal açıp pull request ile birleştirebilirsiniz.
 - Güncel görünüm `app/orman-atlas.css` içindedir ve en son yüklenir. Açık temada zemin saf beyazdır; renkler ortak değişkenlerden gelir, koyu tema aynı kurallarla çalışır.
 - `node scripts/build-pages.mjs` sitenin salt okunur önizlemesini `_pages/` klasörüne üretir. Üyelik, kayıt ve yapay zekâ bu önizlemede kapalıdır.
 - Aynı derleme `_pages/lens-onizleme/` altına Orman Lens önizlemesini koyar: canlı kamera, “Neden bu tür?” kartı ve ikinci kare, açıkça işaretli örnek verilerle denenir.
-- Önizleme adresi `https://suleymanozyurt.github.io/Orman-Muhendisi-Site/` olur. Yayın için depo ayarlarında Pages kaynağı “GitHub Actions” seçilmeli ve depo herkese açık olmalıdır (ya da hesap özel depoda Pages’e izin vermelidir); iş akışı `main` dalına gönderimde çalışır.
+- Önizleme adresi `https://suleymanozyurt.github.io/Orman-Muhendisi/` olur. Yayın için depo ayarlarında Pages kaynağı “GitHub Actions” seçilmeli ve depo herkese açık olmalıdır (ya da hesap özel depoda Pages’e izin vermelidir); iş akışı `main` dalına gönderimde çalışır.
 
 ## Bilgisayarda geliştirme
 
 Node.js 22.13 veya üzeri ve Linux / Windows WSL2 gerekir. `.nvmrc` Node.js 22'yi seçer.
 
 ```bash
-git clone https://github.com/suleymanozyurt/Orman-Muhendisi-Site.git
+git clone https://github.com/suleymanozyurt/Orman-Muhendisi.git
 cd Orman-Muhendisi-Site
 npm ci
 npm run dev -- --port 3000
@@ -70,7 +70,7 @@ Bu kontroller siteyi yayımlamaz. Asistanın mevcut ayrı zamanlı denetimi koru
 `node scripts/build-pages.mjs` aynı uygulama bileşenlerini ve tasarım dosyalarını
 `_pages/` dizininde tarayıcıda çalışan bir önizleme olarak derler. Pages açıldıktan
 sonra `.github/workflows/pages.yml`, `main` dalına gönderilen her değişikliği
-`https://suleymanozyurt.github.io/Orman-Muhendisi-Site/` adresine otomatik yayımlar.
+`https://suleymanozyurt.github.io/Orman-Muhendisi/` adresine otomatik yayımlar.
 GitHub'a kaydedilmeyen yerel değişiklikler bu adreste görünmez; yayın tamamlanınca
 sayfayı yenileyin. Sonuç Actions bölümünde **Canlı geliştirme önizlemesi** altında izlenir.
 

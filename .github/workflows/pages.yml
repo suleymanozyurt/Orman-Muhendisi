@@ -24,7 +24,7 @@ jobs:
       - name: GitHub adresine uygun önizlemeyi derle
         run: node scripts/build-pages.mjs
         env:
-          PAGES_BASE_PATH: /Orman-Muhendisi-Site/
+          PAGES_BASE_PATH: /Orman-Muhendisi/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _pages

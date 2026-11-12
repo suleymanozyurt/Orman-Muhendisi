@@ -4,7 +4,7 @@ import {readFile,writeFile,mkdir,cp,readdir} from "node:fs/promises";
 import {createHash} from "node:crypto";
 import path from "node:path";
 const root=path.resolve(import.meta.dirname,".."),out=process.env.PAGES_OUT?path.resolve(process.env.PAGES_OUT):path.join(root,"_pages");
-const base=process.env.PAGES_BASE_PATH||"/Orman-Muhendisi-Site/";
+const base=process.env.PAGES_BASE_PATH||"/Orman-Muhendisi/";
 // "./" builds a copy that works from any folder, for hosts that do not serve the site at a fixed path.
 if(base!=="./"&&!/^\/(?:[A-Za-z0-9_.-]+\/)*$/.test(base))throw new Error("Invalid Pages base path");
 const layout=await readFile(path.join(root,"app/layout.tsx"),"utf8");
