@@ -1,18 +1,10 @@
-# Orman Mühendisi — GitHub üzerinden başla
+# Orman Mühendisi — buradan devam et
 
-Paket indirip ZIP açmak gerekmiyor. Kaynak kodu, tam talimat ve kamera referansları bu depoda birlikte bulunur.
+Tek depo: https://github.com/suleymanozyurt/Orman-Muhendisi
+Site: https://suleymanozyurt.github.io/Orman-Muhendisi/
 
-- [Çalışma dalı](https://github.com/suleymanozyurt/Orman-Muhendisi/tree/main)
-- [İlk aktarım PR'ı](https://github.com/suleymanozyurt/Orman-Muhendisi/pull/1)
-- [Tam talimat](docs/claude/CLAUDE_Orman_Muhendisi_Tam_Talimat.md)
-- [İki kamera referansı ve aktarım bilgisi](docs/claude/README.md)
+Claude Code’a şu mesajı gönder:
 
-## Claude Code'a verilecek mesaj
+> `suleymanozyurt/Orman-Muhendisi` deposunun güncel `main` dalında çalış. Önce `CLAUDE.md`, ardından `docs/claude/CLAUDE_Orman_Muhendisi_Tam_Talimat.md` dosyasını oku. Güncel kod zaten aktarılmıştır; eski ZIP’ten kodun üzerine yazma. Tasarım ve çalışan kod birlikte ilerlesin. Kamera referansları `docs/claude/referanslar` içindedir. Orman Parkları ayrı sitedir; bu projeyle birleştirme. Çalışmaları bu depoda sürdür, yeni depo oluşturma. GitHub Pages yayını her `main` değişikliğinde güncellenir. Gerçek veri ve sunucu isteyen özellikleri doğrulanmış bağlantılarla tamamla; çalışmayan işlemleri başarılı gösterme. İleride `www.ormanmuhendisi.com` adresine taşınabilirliği koru.
 
-> `suleymanozyurt/Orman-Muhendisi` depomun güncel `main` dalını temel al. Önce kökteki `CLAUDE.md`, ardından `docs/claude/CLAUDE_Orman_Muhendisi_Tam_Talimat.md` dosyasını tamamen oku. `docs/claude/referanslar/IMG_6183.jpeg` ve `IMG_6184.jpeg` kamera referanslarımdır. V67 kaynağı ve son tasarım çalışmaları ana dalda zaten var; eski paketi yeniden kodun üzerine yazma. Mevcut işleri inceleyerek devam et. Tasarım ile kodlamayı birlikte ilerlet; önce iPhone'da gerçek kamera ve galeriyle denenebilir Orman Lens akışını hazırla. İşlev adları ve sonuçları Orman Mühendisi'ne uygun olsun. En az dokunuşla kullanılan, hızlı, sade ama derinlikli, responsive ve PWA uyumlu site istiyorum. Her ekranı çalışır biçimde göster ve geri bildirimime göre düzelt. Kaynakların lisans koşullarını gözet; gerçek veri aktarımını ve mevcut canlı yayını değiştirmeyi tam talimattaki son aşamaya bırak. Yeni depo oluşturma; yeni işleri bu depoda kısa çalışma dallarıyla geliştir.
-
-GitHub Pages hedefi: https://suleymanozyurt.github.io/Orman-Muhendisi/
-
-Önceki Sites yayını: https://ormanmuhendisi.suleymanozyurt49.chatgpt.site/
-
-İleride bağlanacak alan adı: https://www.ormanmuhendisi.com/
+GitHub Pages tasarım ve keşif sürümüdür. Giriş, buluta kayıt ve yapay zekâ uçları için sunucu kurulumu gerekir. Mevcut Sites ortamı ve DNS değiştirilmez.

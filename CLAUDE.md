@@ -4,6 +4,9 @@
 
 ## Güncel başlangıç — 11 Kasım 2026
 
+Son kullanıcı kararı: Orman Mühendisi ayrı bir sitedir. Tek geçerli depo `suleymanozyurt/Orman-Muhendisi`, GitHub yayını `https://suleymanozyurt.github.io/Orman-Muhendisi/` adresidir. Orman Parkları sitesi ve deposuyla birleştirme. Önceki depo ve dal adları yalnız tarihsel aktarım bilgisidir. Tasarım ve kodlama bu depoda birlikte devam eder. İleride `www.ormanmuhendisi.com` alan adına taşınabilirliği koru.
+
+
 - Tek geliştirme deposu `suleymanozyurt/Orman-Muhendisi`; ana geliştirme tabanı `main` dalıdır. Canlı v67 kaynağı bu dala `c5b6ca989bec5d5f9c09ffca931b997c8861e52a` commit'iyle zaten alınmıştır. Daha sonra yapılan tasarım, Orman Lens ve Pages önizleme çalışmalarını koru. Eski ZIP'i yeniden açıp güncel kodun üzerine yazma.
 - Tam talimattaki “yeni dal aç / v67 paketini içeri al” adımı ilk aktarımın tarihsel tarifidir; güncel `main` dalını temel al ve sonraki değişiklikleri kısa çalışma dallarıyla geliştir. Tam talimatın diğer hükümleri ve en yeni açık kullanıcı kararları geçerlidir.
 - Tasarım ve çalışan kod birlikte geliştirilsin. Önce iPhone'da denenecek kamera akışını, sonra arama, tür künyesi, harita ve gözlem akışlarını tamamla. İki referansla aynı ekran ölçüsünde karşılaştır. Bu aktarım tasarımın kullanıcı tarafından onaylandığı anlamına gelmez.

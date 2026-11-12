@@ -1,0 +1,10 @@
+{
+  "source_repository": "suleymanozyurt/Orman-Muhendisi-Site",
+  "source_main_commit": "25f00c4db473740442c431cdfa395ab052f20d26",
+  "source_design_branch": "fcd3388b56eeabb3eb48f34bd3c5810fc64b9af2",
+  "source_main_contains_design_branch": true,
+  "destination_repository": "suleymanozyurt/Orman-Muhendisi",
+  "separate_from": "suleymanozyurt/orman-Parklari",
+  "site": "https://suleymanozyurt.github.io/Orman-Muhendisi/",
+  "scope": "Source code, instructions, assets and design references; production DB and secrets are not stored in Git."
+}
